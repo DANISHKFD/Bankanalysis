@@ -1,0 +1,16 @@
+# dependencies and build output
+web/node_modules/
+web/dist/
+__pycache__/
+*.pyc
+
+# run output (rebuilt by src/run_all.py)
+logs/
+data/bank.db
+
+# downloaded source files (re-fetched by the pipeline); keep hand-made inputs
+raw/*
+!raw/manual/
+
+# local tool cache
+.impeccable/hook.cache.json

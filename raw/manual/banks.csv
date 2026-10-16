@@ -1,0 +1,41 @@
+symbol,name,short,group
+HDFCBANK,HDFC Bank,HDFC Bank,Private
+ICICIBANK,ICICI Bank,ICICI Bank,Private
+SBIN,State Bank of India,SBI,PSU
+AXISBANK,Axis Bank,Axis Bank,Private
+KOTAKBANK,Kotak Mahindra Bank,Kotak,Private
+INDUSINDBK,IndusInd Bank,IndusInd,Private
+BANKBARODA,Bank of Baroda,BoB,PSU
+PNB,Punjab National Bank,PNB,PSU
+CANBK,Canara Bank,Canara,PSU
+UNIONBANK,Union Bank of India,Union Bank,PSU
+BANKINDIA,Bank of India,BoI,PSU
+INDIANB,Indian Bank,Indian Bank,PSU
+CENTRALBK,Central Bank of India,Central Bank,PSU
+IOB,Indian Overseas Bank,IOB,PSU
+UCOBANK,UCO Bank,UCO,PSU
+MAHABANK,Bank of Maharashtra,BoM,PSU
+PSB,Punjab & Sind Bank,P&SB,PSU
+IDBI,IDBI Bank,IDBI,Private
+YESBANK,YES Bank,YES Bank,Private
+IDFCFIRSTB,IDFC First Bank,IDFC First,Private
+FEDERALBNK,Federal Bank,Federal,Private
+BANDHANBNK,Bandhan Bank,Bandhan,Private
+RBLBANK,RBL Bank,RBL,Private
+CUB,City Union Bank,CUB,Private
+KARURVYSYA,Karur Vysya Bank,KVB,Private
+SOUTHBANK,South Indian Bank,SIB,Private
+J&KBANK,J&K Bank,J&K Bank,Private
+KTKBANK,Karnataka Bank,Karnataka,Private
+TMB,Tamilnad Mercantile Bank,TMB,Private
+DCBBANK,DCB Bank,DCB,Private
+CSBBANK,CSB Bank,CSB,Private
+DHANBANK,Dhanlaxmi Bank,Dhanlaxmi,Private
+AUBANK,AU Small Finance Bank,AU SFB,SFB
+EQUITASBNK,Equitas Small Finance Bank,Equitas,SFB
+UJJIVANSFB,Ujjivan Small Finance Bank,Ujjivan,SFB
+JSFB,Jana Small Finance Bank,Jana,SFB
+UTKARSHBNK,Utkarsh Small Finance Bank,Utkarsh,SFB
+ESAFSFB,ESAF Small Finance Bank,ESAF,SFB
+SURYODAY,Suryoday Small Finance Bank,Suryoday,SFB
+CAPITALSFB,Capital Small Finance Bank,Capital SFB,SFB

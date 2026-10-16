@@ -1,0 +1,37 @@
+symbol,name,short,group,note
+AADHARHFC,Aadhar Housing Finance,Aadhar HF,HFC,
+AAVAS,Aavas Financiers,Aavas,HFC,
+APTUS,Aptus Value Housing Finance,Aptus,HFC,
+BAJAJHFL,Bajaj Housing Finance,Bajaj Housing,HFC,
+CANFINHOME,Can Fin Homes,Can Fin,HFC,
+HOMEFIRST,Home First Finance,Home First,HFC,
+INDIASHLTR,India Shelter Finance,India Shelter,HFC,
+LICHSGFIN,LIC Housing Finance,LIC Housing,HFC,
+PNBHOUSING,PNB Housing Finance,PNB Housing,HFC,
+REPCOHOME,Repco Home Finance,Repco,HFC,
+SAMMAANCAP,Sammaan Capital,Sammaan,HFC,
+HUDCO,Housing & Urban Development Corp,HUDCO,Govt,
+IREDA,Indian Renewable Energy Dev Agency,IREDA,Govt,
+PFC,Power Finance Corporation,PFC,Govt,
+RECLTD,REC,REC,Govt,
+ABCAPITAL,Aditya Birla Capital,AB Capital,NBFC,"Aditya Birla Finance merged into Aditya Birla Capital from April 2024; before that the standalone company was a holding company, so earlier quarters are not comparable."
+BAJFINANCE,Bajaj Finance,Bajaj Finance,NBFC,
+CGCL,Capri Global Capital,Capri Global,NBFC,
+CHOLAFIN,Cholamandalam Investment & Finance,Chola,NBFC,
+EDELWEISS,Edelweiss Financial Services,Edelweiss,NBFC,"Edelweiss Financial Services is a holding company: its standalone results are the parent's own income (mostly dividends and fees from subsidiaries), not the group's lending businesses."
+FEDFINA,Fedbank Financial Services,Fedfina,NBFC,
+FIVESTAR,Five-Star Business Finance,Five-Star,NBFC,
+HDBFS,HDB Financial Services,HDB Financial,NBFC,
+JMFINANCIL,JM Financial,JM Financial,NBFC,"JM Financial is a holding company: its standalone results are the parent's own income, not the group's lending subsidiaries."
+LTF,L&T Finance,L&T Finance,NBFC,
+M&MFIN,Mahindra & Mahindra Financial Services,M&M Finance,NBFC,
+MANAPPURAM,Manappuram Finance,Manappuram,NBFC,
+MASFIN,MAS Financial Services,MAS Financial,NBFC,
+MUTHOOTFIN,Muthoot Finance,Muthoot,NBFC,
+NORTHARC,Northern Arc Capital,Northern Arc,NBFC,
+PIRAMALFIN,Piramal Finance,Piramal,NBFC,Piramal Enterprises merged into Piramal Finance in 2025; NSE holds filings for the merged company only from Dec 2025.
+POONAWALLA,Poonawalla Fincorp,Poonawalla,NBFC,
+SHRIRAMFIN,Shriram Finance,Shriram,NBFC,"Shriram City Union Finance merged into Shriram Transport Finance (renamed Shriram Finance) in December 2022, so growth across FY23 compares the merged company with Shriram Transport alone."
+SUNDARMFIN,Sundaram Finance,Sundaram,NBFC,
+TATACAP,Tata Capital,Tata Capital,NBFC,
+UGROCAP,UGRO Capital,UGRO,NBFC,

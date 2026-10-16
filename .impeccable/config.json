@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          "src/report_template.html"
+        ],
+        "createdAt": "2026-10-15T13:53:16.578Z",
+        "reason": "Claude: remaining findings test dark-theme tokens against white; real light-theme issue (muted #858a90) fixed to #656b72"
+      },
+      {
+        "rule": "tight-leading",
+        "value": "*",
+        "files": [
+          "src/report_template.html"
+        ],
+        "createdAt": "2026-10-15T20:16:11.433Z",
+        "reason": "Claude triage: remaining sub-1.3 line heights are single-line UI (nowrap nav links, chips, tile numbers) and 26px display headings; wrapping eyebrow fixed to 1.4"
+      }
+    ]
+  }
+}
