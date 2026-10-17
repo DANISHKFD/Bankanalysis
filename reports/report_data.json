@@ -1,5 +1,5 @@
 {
- "built": "2026-10-16",
+ "built": "2026-10-17",
  "credit": {
   "month": "2026-08-01",
   "total": {
@@ -8164,6 +8164,56 @@
      "net_worth": null,
      "total_assets": null,
      "bvps": null
+    },
+    {
+     "label": "Q2FY27",
+     "period_end": "2026-09-30",
+     "derived": 0,
+     "interest_earned": 83426.6,
+     "interest_expended": 48807.42,
+     "nii": 34619.18000000001,
+     "nii_yoy": 9.72277070820724,
+     "nii_qoq": 3.2362128529445755,
+     "other_income": 13831.02,
+     "other_income_yoy": -3.6167196979516425,
+     "total_income": 97257.62,
+     "opex": 18966.78,
+     "employee_cost": 6774.17,
+     "other_opex": 12192.61,
+     "opex_yoy": 5.50041384097828,
+     "cost_to_income": 39.146959145679475,
+     "ppop": 29483.42,
+     "ppop_yoy": 5.586027589565812,
+     "provisions": 3573.62,
+     "prov_to_ppop": 12.120778390023952,
+     "exceptional": 0.0,
+     "pbt": 25909.8,
+     "tax": 6399.84,
+     "tax_rate": 24.70046082949309,
+     "pat": 19509.96,
+     "pat_yoy": 4.6599804305283765,
+     "pat_qoq": 2.3622592566942213,
+     "eps": 12.66,
+     "gnpa": 35809.7,
+     "nnpa": 11850.86,
+     "gnpa_pct": 1.11,
+     "nnpa_pct": 0.37,
+     "pcr": 66.90600591459855,
+     "roa": 1.7999999999999998,
+     "cet1": 18.87,
+     "tier1": 18.87,
+     "opm": 18.76188170199913,
+     "nii_to_int_income": 41.496573035458724,
+     "other_inc_share": 14.221014250605762,
+     "deposits": 3327448.93,
+     "advances": 3195566.06,
+     "deposits_yoy": 18.76159136721789,
+     "advances_yoy": 16.356425085718396,
+     "cd_ratio": 96.03651708036884,
+     "investments": 923997.08,
+     "net_worth": 579146.46,
+     "total_assets": 4577759.77,
+     "bvps": 375.61546443905416
     }
    ],
    "ICICIBANK": [
@@ -9416,6 +9466,56 @@
      "net_worth": null,
      "total_assets": null,
      "bvps": null
+    },
+    {
+     "label": "Q2FY27",
+     "period_end": "2026-09-30",
+     "derived": 0,
+     "interest_earned": 49110.0,
+     "interest_expended": 23771.31,
+     "nii": 25338.69,
+     "nii_yoy": 17.693105168452927,
+     "nii_qoq": 3.9137397552118536,
+     "other_income": 8047.49,
+     "other_income_yoy": 6.229918923271471,
+     "total_income": 57157.49,
+     "opex": 12810.95,
+     "employee_cost": 4927.87,
+     "other_opex": 7883.08,
+     "opex_yoy": 8.50263910345015,
+     "cost_to_income": 38.372015007407256,
+     "ppop": 20575.23,
+     "ppop_yoy": 18.94599131920758,
+     "provisions": 850.69,
+     "prov_to_ppop": 4.1345345835745215,
+     "exceptional": 0.0,
+     "pbt": 19724.54,
+     "tax": 4881.51,
+     "tax_rate": 24.748409848848183,
+     "pat": 14843.03,
+     "pat_yoy": 20.10002516407219,
+     "pat_qoq": 0.2602587051234506,
+     "eps": 20.68,
+     "gnpa": 23335.24,
+     "nnpa": 5706.22,
+     "gnpa_pct": 1.2,
+     "nnpa_pct": 0.3,
+     "pcr": 75.54676960682642,
+     "roa": 2.26,
+     "cet1": 16.009999999999998,
+     "tier1": 16.009999999999998,
+     "opm": 25.50954998981877,
+     "nii_to_int_income": 51.595784972510685,
+     "other_inc_share": 14.079502091501919,
+     "deposits": 2049874.18,
+     "advances": 1831579.85,
+     "deposits_yoy": 27.098368158914997,
+     "advances_yoy": 30.041640691718108,
+     "cd_ratio": 89.35084249902597,
+     "investments": 557494.2,
+     "net_worth": 360593.47000000003,
+     "total_assets": 2725286.54,
+     "bvps": 502.2333073344662
     }
    ],
    "SBIN": [
@@ -11820,6 +11920,56 @@
      "net_worth": null,
      "total_assets": null,
      "bvps": null
+    },
+    {
+     "label": "Q2FY27",
+     "period_end": "2026-09-30",
+     "derived": 0,
+     "interest_earned": 36418.77,
+     "interest_expended": 21047.35,
+     "nii": 15371.419999999998,
+     "nii_yoy": 11.8364733658068,
+     "nii_qoq": 4.952308122981552,
+     "other_income": 6530.55,
+     "other_income_yoy": -1.4194107400016254,
+     "total_income": 42949.32,
+     "opex": 10818.89,
+     "employee_cost": 3314.43,
+     "other_opex": 7504.46,
+     "opex_yoy": 8.66048651145972,
+     "cost_to_income": 49.39688073721223,
+     "ppop": 11083.08,
+     "ppop_yoy": 6.4398373882236015,
+     "provisions": 1693.74,
+     "prov_to_ppop": 15.282213969402008,
+     "exceptional": 0.0,
+     "pbt": 9389.34,
+     "tax": 2386.06,
+     "tax_rate": 25.412435804859552,
+     "pat": 7003.28,
+     "pat_yoy": 37.598729969113705,
+     "pat_qoq": -1.555260672034553,
+     "eps": 22.5,
+     "gnpa": 16777.52,
+     "nnpa": 5053.79,
+     "gnpa_pct": 1.16,
+     "nnpa_pct": 0.35000000000000003,
+     "pcr": 69.87761004010127,
+     "roa": 1.38,
+     "cet1": 14.610000000000001,
+     "tier1": 29.57,
+     "opm": 12.500504547517666,
+     "nii_to_int_income": 42.20741117835665,
+     "other_inc_share": 15.205246555707982,
+     "deposits": 1452066.21,
+     "advances": 1373726.8,
+     "deposits_yoy": 20.65492345072537,
+     "advances_yoy": 23.01630672599333,
+     "cd_ratio": 94.6049698381178,
+     "investments": 453464.34,
+     "net_worth": 218749.34999999998,
+     "total_assets": 2046240.03,
+     "bvps": 702.53829848733
     }
    ],
    "KOTAKBANK": [
@@ -16678,6 +16828,56 @@
      "net_worth": null,
      "total_assets": null,
      "bvps": null
+    },
+    {
+     "label": "Q2FY27",
+     "period_end": "2026-09-30",
+     "derived": 0,
+     "interest_earned": 34584.82,
+     "interest_expended": 22983.53,
+     "nii": 11601.29,
+     "nii_yoy": 10.817763258444145,
+     "nii_qoq": 7.435666156712695,
+     "other_income": 3600.59,
+     "other_income_yoy": -17.077029725316606,
+     "total_income": 38185.41,
+     "opex": 7669.94,
+     "employee_cost": 4406.35,
+     "other_opex": 3263.59,
+     "opex_yoy": 1.1354421182964147,
+     "cost_to_income": 50.4538912292427,
+     "ppop": 7531.94,
+     "ppop_yoy": 4.218589578611476,
+     "provisions": 97.27,
+     "prov_to_ppop": 1.2914335483288502,
+     "exceptional": 0.0,
+     "pbt": 7434.67,
+     "tax": 1902.44,
+     "tax_rate": 25.588761841480522,
+     "pat": 5532.23,
+     "pat_yoy": 12.816774169866619,
+     "pat_qoq": 5.309815372842541,
+     "eps": 4.81,
+     "gnpa": 34190.17,
+     "nnpa": 3313.27,
+     "gnpa_pct": 2.55,
+     "nnpa_pct": 0.25,
+     "pcr": 90.30929065283969,
+     "roa": 1.05,
+     "cet1": 14.44,
+     "tier1": 15.89,
+     "opm": 11.367270380473286,
+     "nii_to_int_income": 33.54445678768894,
+     "other_inc_share": 9.42922964556358,
+     "deposits": 1777240.48,
+     "advances": 1310450.81,
+     "deposits_yoy": 9.90428323017014,
+     "advances_yoy": 15.582425918431664,
+     "cd_ratio": 73.7351430347794,
+     "investments": 517590.86,
+     "net_worth": 152776.84,
+     "total_assets": 2079601.3,
+     "bvps": 132.9309185196142
     }
    ],
    "CANBK": [
@@ -22738,6 +22938,56 @@
      "net_worth": null,
      "total_assets": null,
      "bvps": null
+    },
+    {
+     "label": "Q2FY27",
+     "period_end": "2026-09-30",
+     "derived": 0,
+     "interest_earned": 10356.87,
+     "interest_expended": 6211.66,
+     "nii": 4145.210000000001,
+     "nii_yoy": 26.26979243455323,
+     "nii_qoq": 5.899139054237068,
+     "other_income": 1380.34,
+     "other_income_yoy": -8.38167553862288,
+     "total_income": 11737.21,
+     "opex": 3257.25,
+     "employee_cost": 2071.65,
+     "other_opex": 1185.6,
+     "opex_yoy": 8.43692365055162,
+     "cost_to_income": 58.94888291663272,
+     "ppop": 2268.3,
+     "ppop_yoy": 27.031507263583542,
+     "provisions": 562.74,
+     "prov_to_ppop": 24.80888771326544,
+     "exceptional": 0.0,
+     "pbt": 1705.56,
+     "tax": 236.7,
+     "tax_rate": 13.87813973123197,
+     "pat": 1468.86,
+     "pat_yoy": 21.105138183497107,
+     "pat_qoq": 10.96623101911307,
+     "eps": 1.62,
+     "gnpa": 9108.53,
+     "nnpa": 1146.05,
+     "gnpa_pct": 2.39,
+     "nnpa_pct": 0.31,
+     "pcr": 87.4178380045957,
+     "roa": 1.03,
+     "cet1": 15.97,
+     "tier1": 15.97,
+     "opm": 8.573632767428778,
+     "nii_to_int_income": 40.023771660743066,
+     "other_inc_share": 11.760375762212655,
+     "deposits": 508509.08,
+     "advances": 373069.69,
+     "deposits_yoy": 14.412994420120517,
+     "advances_yoy": 30.432819717478644,
+     "cd_ratio": 73.36539398667178,
+     "investments": 164110.1,
+     "net_worth": 41091.88,
+     "total_assets": 597313.16,
+     "bvps": 45.39836931303445
     }
    ],
    "IOB": [
@@ -28648,6 +28898,56 @@
      "net_worth": null,
      "total_assets": null,
      "bvps": null
+    },
+    {
+     "label": "Q2FY27",
+     "period_end": "2026-09-30",
+     "derived": 0,
+     "interest_earned": 8512.15,
+     "interest_expended": 4284.46,
+     "nii": 4227.69,
+     "nii_yoy": 28.69641188306884,
+     "nii_qoq": 21.27068178167384,
+     "other_income": 1352.97,
+     "other_income_yoy": -45.65097754086309,
+     "total_income": 9865.12,
+     "opex": 2688.15,
+     "employee_cost": 1288.34,
+     "other_opex": 1399.81,
+     "opex_yoy": 19.38578375857705,
+     "cost_to_income": 48.16903377019923,
+     "ppop": 2892.51,
+     "ppop_yoy": -17.89103461196728,
+     "provisions": 8.55,
+     "prov_to_ppop": 0.29559102647873303,
+     "exceptional": 0.0,
+     "pbt": 2883.96,
+     "tax": 678.51,
+     "tax_rate": 23.527025340157284,
+     "pat": 2205.45,
+     "pat_yoy": -39.19958316792379,
+     "pat_qoq": 4.267721896008858,
+     "eps": 2.05,
+     "gnpa": 5859.85,
+     "nnpa": 460.94,
+     "gnpa_pct": 2.12,
+     "nnpa_pct": 0.16999999999999998,
+     "pcr": 92.13392834287568,
+     "roa": 1.83,
+     "cet1": 26.55,
+     "tier1": 26.55,
+     "opm": 18.08638240632507,
+     "nii_to_int_income": 49.66653548163507,
+     "other_inc_share": 13.714683653113191,
+     "deposits": 355683.53,
+     "advances": 271532.67,
+     "deposits_yoy": 17.189890877552095,
+     "advances_yoy": 17.944906765669955,
+     "cd_ratio": 76.3410861335075,
+     "investments": 122290.6,
+     "net_worth": 71550.98,
+     "total_assets": 481956.88,
+     "bvps": 66.54419478442023
     }
    ],
    "YESBANK": [
@@ -98737,14 +99037,14 @@
     "group": "Private",
     "sector": "Bank",
     "close": 1290.0,
-    "mcap": 401293.19999999995,
-    "chg": 8.107025570616532,
-    "pb": 1.9652521084578967,
-    "pe": 15.575467582450848,
+    "mcap": 401667.3,
+    "chg": 8.207806840436138,
+    "pb": 1.8361988275622305,
+    "pe": 14.51210849885541,
     "roe": 12.777400452233373,
     "roe_label": "FY26",
-    "bs_label": "Q4FY26",
-    "ttm_label": "Q1FY27",
+    "bs_label": "Q2FY27",
+    "ttm_label": "Q2FY27",
     "split_events": null
    },
    {
@@ -98892,12 +99192,12 @@
     "close": 30.88,
     "mcap": 27950.7232,
     "chg": -18.54391981007648,
-    "pb": 0.7265485728693767,
-    "pe": 6.178853437851626,
+    "pb": 0.6802006430467529,
+    "pe": 5.847933232766827,
     "roe": 11.65323114682535,
     "roe_label": "FY26",
-    "bs_label": "Q4FY26",
-    "ttm_label": "Q1FY27",
+    "bs_label": "Q2FY27",
+    "ttm_label": "Q2FY27",
     "split_events": null
    },
    {
@@ -99128,14 +99428,14 @@
     "group": "Private",
     "sector": "Bank",
     "close": 728.85,
-    "mcap": 1122523.7505,
-    "chg": -26.521472883099605,
-    "pb": 2.010409438934985,
-    "pe": 14.8529522744053,
+    "mcap": 1123784.6609999998,
+    "chg": -26.438935790833227,
+    "pb": 1.9404153156698911,
+    "pe": 14.70066459998158,
     "roe": 14.142621642201034,
     "roe_label": "FY26",
-    "bs_label": "Q4FY26",
-    "ttm_label": "Q1FY27",
+    "bs_label": "Q2FY27",
+    "ttm_label": "Q2FY27",
     "split_events": null
    },
    {
@@ -99179,14 +99479,14 @@
     "group": "Private",
     "sector": "Bank",
     "close": 1397.0,
-    "mcap": 1002305.5900000001,
-    "chg": -1.019115985205843,
-    "pb": 2.970926197601445,
-    "pe": 19.207537598981123,
+    "mcap": 1003018.06,
+    "chg": -0.9487572930688248,
+    "pb": 2.7815757728502404,
+    "pe": 18.34775597082485,
     "roe": 15.933536148164935,
     "roe_label": "FY26",
-    "bs_label": "Q4FY26",
-    "ttm_label": "Q1FY27",
+    "bs_label": "Q2FY27",
+    "ttm_label": "Q2FY27",
     "split_events": null
    },
    {
@@ -99198,12 +99498,12 @@
     "close": 84.12,
     "mcap": 90449.1888,
     "chg": -8.872278193045169,
-    "pb": 1.3372623443949354,
-    "pe": 9.401068977129578,
+    "pb": 1.264122291546531,
+    "pe": 11.031397847364088,
     "roe": 14.877543023971098,
     "roe_label": "FY26",
-    "bs_label": "Q4FY26",
-    "ttm_label": "Q1FY27",
+    "bs_label": "Q2FY27",
+    "ttm_label": "Q2FY27",
     "split_events": null
    },
    {
@@ -99589,12 +99889,12 @@
     "close": 116.3,
     "mcap": 133663.0085,
     "chg": 0.1636379295495427,
-    "pb": 0.9370014168970795,
-    "pe": 6.525787583218275,
+    "pb": 0.8748905167825175,
+    "pe": 6.331504970446379,
     "roe": 12.520918052564998,
     "roe_label": "FY26",
-    "bs_label": "Q4FY26",
-    "ttm_label": "Q1FY27",
+    "bs_label": "Q2FY27",
+    "ttm_label": "Q2FY27",
     "split_events": null
    },
    {
@@ -104209,14 +104509,6 @@
    }
   },
   "J&KBANK": {
-   "gnpa_pct": {
-    "value": 3.32,
-    "prev": 3.95,
-    "page": 20,
-    "period_end": "2025-09-30",
-    "file": "2025-10-18",
-    "basis": "standalone"
-   },
    "pcr_pct": {
     "value": 90.39,
     "prev": 90.54,
@@ -104228,6 +104520,14 @@
    "nnpa_pct": {
     "value": 0.76,
     "prev": 0.85,
+    "page": 20,
+    "period_end": "2025-09-30",
+    "file": "2025-10-18",
+    "basis": "standalone"
+   },
+   "gnpa_pct": {
+    "value": 3.32,
+    "prev": 3.95,
     "page": 20,
     "period_end": "2025-09-30",
     "file": "2025-10-18",
@@ -104278,40 +104578,6 @@
     "basis": "standalone"
    }
   },
-  "AXISBANK": {
-   "casa_pct": {
-    "value": 37.0,
-    "prev": null,
-    "page": 5,
-    "period_end": "2026-06-30",
-    "file": "2026-07-18",
-    "basis": "standalone"
-   },
-   "pcr_pct": {
-    "value": 70.0,
-    "prev": 71.0,
-    "page": 46,
-    "period_end": "2026-06-30",
-    "file": "2026-07-18",
-    "basis": "standalone"
-   },
-   "gnpa_pct": {
-    "value": 1.28,
-    "prev": 1.57,
-    "page": 6,
-    "period_end": "2026-06-30",
-    "file": "2026-07-18",
-    "basis": "standalone"
-   },
-   "nnpa_pct": {
-    "value": 0.39,
-    "prev": 0.45,
-    "page": 6,
-    "period_end": "2026-06-30",
-    "file": "2026-07-18",
-    "basis": "standalone"
-   }
-  },
   "YESBANK": {
    "gnpa_pct": {
     "value": 1.3,
@@ -104355,6 +104621,14 @@
     "file": "2026-07-20",
     "basis": "standalone"
    },
+   "nnpa_pct": {
+    "value": 0.18,
+    "prev": 0.32,
+    "page": 4,
+    "period_end": "2026-06-30",
+    "file": "2026-07-20",
+    "basis": "standalone"
+   },
    "casa_pct": {
     "value": 41.45,
     "prev": 44.16,
@@ -104370,13 +104644,39 @@
     "period_end": "2026-06-30",
     "file": "2026-07-20",
     "basis": "standalone"
+   }
+  },
+  "BANDHANBNK": {
+   "casa_pct": {
+    "value": 29.4,
+    "prev": 27.1,
+    "page": 16,
+    "period_end": "2026-06-30",
+    "file": "2026-07-21",
+    "basis": "standalone"
+   },
+   "pcr_pct": {
+    "value": 71.1,
+    "prev": 73.7,
+    "page": 22,
+    "period_end": "2026-06-30",
+    "file": "2026-07-21",
+    "basis": "standalone"
+   },
+   "gnpa_pct": {
+    "value": 3.1,
+    "prev": 5.0,
+    "page": 22,
+    "period_end": "2026-06-30",
+    "file": "2026-07-21",
+    "basis": "standalone"
    },
    "nnpa_pct": {
-    "value": 0.18,
-    "prev": 0.32,
-    "page": 4,
+    "value": 0.9,
+    "prev": 1.4,
+    "page": 22,
     "period_end": "2026-06-30",
-    "file": "2026-07-20",
+    "file": "2026-07-21",
     "basis": "standalone"
    }
   },
@@ -104424,117 +104724,7 @@
     "basis": "standalone"
    }
   },
-  "BANDHANBNK": {
-   "pcr_pct": {
-    "value": 71.1,
-    "prev": 73.7,
-    "page": 22,
-    "period_end": "2026-06-30",
-    "file": "2026-07-21",
-    "basis": "standalone"
-   },
-   "nnpa_pct": {
-    "value": 0.9,
-    "prev": 1.4,
-    "page": 22,
-    "period_end": "2026-06-30",
-    "file": "2026-07-21",
-    "basis": "standalone"
-   },
-   "gnpa_pct": {
-    "value": 3.1,
-    "prev": 5.0,
-    "page": 22,
-    "period_end": "2026-06-30",
-    "file": "2026-07-21",
-    "basis": "standalone"
-   },
-   "casa_pct": {
-    "value": 29.4,
-    "prev": 27.1,
-    "page": 16,
-    "period_end": "2026-06-30",
-    "file": "2026-07-21",
-    "basis": "standalone"
-   }
-  },
-  "ICICIBANK": {
-   "nnpa_pct": {
-    "value": 0.35,
-    "prev": 0.41,
-    "page": 17,
-    "period_end": "2026-06-30",
-    "file": "2026-07-22",
-    "basis": "standalone"
-   },
-   "gnpa_pct": {
-    "value": 1.4,
-    "prev": null,
-    "page": 9,
-    "period_end": "2026-06-30",
-    "file": "2026-07-22",
-    "basis": "standalone"
-   },
-   "casa_pct": {
-    "value": 39.5,
-    "prev": null,
-    "page": 8,
-    "period_end": "2026-06-30",
-    "file": "2026-07-22",
-    "basis": "standalone"
-   },
-   "pcr_pct": {
-    "value": 74.7,
-    "prev": 75.3,
-    "page": 17,
-    "period_end": "2026-06-30",
-    "file": "2026-07-22",
-    "basis": "standalone"
-   }
-  },
-  "INDUSINDBK": {
-   "nnpa_pct": {
-    "value": 0.95,
-    "prev": 1.12,
-    "page": 26,
-    "period_end": "2026-06-30",
-    "file": "2026-07-22",
-    "basis": "consolidated"
-   },
-   "pcr_pct": {
-    "value": 71.0,
-    "prev": 70.0,
-    "page": 26,
-    "period_end": "2026-06-30",
-    "file": "2026-07-22",
-    "basis": "consolidated"
-   },
-   "gnpa_pct": {
-    "value": 3.25,
-    "prev": 3.64,
-    "page": 26,
-    "period_end": "2026-06-30",
-    "file": "2026-07-22",
-    "basis": "consolidated"
-   }
-  },
   "CSBBANK": {
-   "pcr_pct": {
-    "value": 86.83,
-    "prev": 84.14,
-    "page": 25,
-    "period_end": "2026-06-30",
-    "file": "2026-07-22",
-    "basis": "standalone"
-   },
-   "nnpa_pct": {
-    "value": 0.39,
-    "prev": 0.66,
-    "page": 5,
-    "period_end": "2026-06-30",
-    "file": "2026-07-22",
-    "basis": "standalone"
-   },
    "gnpa_pct": {
     "value": 1.75,
     "prev": 1.81,
@@ -104550,20 +104740,62 @@
     "period_end": "2026-06-30",
     "file": "2026-07-22",
     "basis": "standalone"
+   },
+   "pcr_pct": {
+    "value": 86.83,
+    "prev": 84.14,
+    "page": 25,
+    "period_end": "2026-06-30",
+    "file": "2026-07-22",
+    "basis": "standalone"
+   },
+   "nnpa_pct": {
+    "value": 0.39,
+    "prev": 0.66,
+    "page": 5,
+    "period_end": "2026-06-30",
+    "file": "2026-07-22",
+    "basis": "standalone"
+   }
+  },
+  "INDUSINDBK": {
+   "gnpa_pct": {
+    "value": 3.25,
+    "prev": 3.64,
+    "page": 26,
+    "period_end": "2026-06-30",
+    "file": "2026-07-22",
+    "basis": "consolidated"
+   },
+   "nnpa_pct": {
+    "value": 0.95,
+    "prev": 1.12,
+    "page": 26,
+    "period_end": "2026-06-30",
+    "file": "2026-07-22",
+    "basis": "consolidated"
+   },
+   "pcr_pct": {
+    "value": 71.0,
+    "prev": 70.0,
+    "page": 26,
+    "period_end": "2026-06-30",
+    "file": "2026-07-22",
+    "basis": "consolidated"
    }
   },
   "SURYODAY": {
-   "gnpa_pct": {
-    "value": 6.5,
-    "prev": 8.5,
+   "nnpa_pct": {
+    "value": 1.2,
+    "prev": 5.6,
     "page": 38,
     "period_end": "2026-06-30",
     "file": "2026-07-23",
     "basis": "standalone"
    },
-   "nnpa_pct": {
-    "value": 1.2,
-    "prev": 5.6,
+   "gnpa_pct": {
+    "value": 6.5,
+    "prev": 8.5,
     "page": 38,
     "period_end": "2026-06-30",
     "file": "2026-07-23",
@@ -104587,10 +104819,10 @@
    }
   },
   "CAPITALSFB": {
-   "pcr_pct": {
-    "value": 54.51,
-    "prev": null,
-    "page": 5,
+   "gnpa_pct": {
+    "value": 2.47,
+    "prev": 2.75,
+    "page": 7,
     "period_end": "2026-06-30",
     "file": "2026-07-23",
     "basis": "standalone"
@@ -104603,27 +104835,27 @@
     "file": "2026-07-23",
     "basis": "standalone"
    },
-   "gnpa_pct": {
-    "value": 2.47,
-    "prev": 2.75,
-    "page": 7,
+   "pcr_pct": {
+    "value": 54.51,
+    "prev": null,
+    "page": 5,
     "period_end": "2026-06-30",
     "file": "2026-07-23",
     "basis": "standalone"
    }
   },
   "SHRIRAMFIN": {
-   "nnpa_pct": {
-    "value": 2.33,
-    "prev": 2.57,
+   "gnpa_pct": {
+    "value": 4.64,
+    "prev": 4.53,
     "page": 9,
     "period_end": "2026-06-30",
     "file": "2026-07-24",
     "basis": "standalone"
    },
-   "gnpa_pct": {
-    "value": 4.64,
-    "prev": 4.53,
+   "nnpa_pct": {
+    "value": 2.33,
+    "prev": 2.57,
     "page": 9,
     "period_end": "2026-06-30",
     "file": "2026-07-24",
@@ -104638,53 +104870,11 @@
     "basis": "standalone"
    }
   },
-  "BANKBARODA": {
-   "casa_pct": {
-    "value": 37.72,
-    "prev": 39.33,
-    "page": 13,
-    "period_end": "2026-06-30",
-    "file": "2026-07-24",
-    "basis": "standalone"
-   },
-   "gnpa_pct": {
-    "value": 1.99,
-    "prev": 2.28,
-    "page": 22,
-    "period_end": "2026-06-30",
-    "file": "2026-07-24",
-    "basis": "standalone"
-   },
-   "nnpa_pct": {
-    "value": 0.5,
-    "prev": 0.6,
-    "page": 22,
-    "period_end": "2026-06-30",
-    "file": "2026-07-24",
-    "basis": "standalone"
-   },
-   "pcr_pct": {
-    "value": 93.28,
-    "prev": 93.18,
-    "page": 22,
-    "period_end": "2026-06-30",
-    "file": "2026-07-24",
-    "basis": "standalone"
-   }
-  },
   "DCBBANK": {
    "pcr_pct": {
     "value": 79.81,
     "prev": 74.04,
     "page": 4,
-    "period_end": "2026-06-30",
-    "file": "2026-07-24",
-    "basis": "standalone"
-   },
-   "nnpa_pct": {
-    "value": 0.84,
-    "prev": 1.22,
-    "page": 5,
     "period_end": "2026-06-30",
     "file": "2026-07-24",
     "basis": "standalone"
@@ -104704,17 +104894,51 @@
     "period_end": "2026-06-30",
     "file": "2026-07-24",
     "basis": "standalone"
+   },
+   "nnpa_pct": {
+    "value": 0.84,
+    "prev": 1.22,
+    "page": 5,
+    "period_end": "2026-06-30",
+    "file": "2026-07-24",
+    "basis": "standalone"
+   }
+  },
+  "BANKBARODA": {
+   "nnpa_pct": {
+    "value": 0.5,
+    "prev": 0.6,
+    "page": 22,
+    "period_end": "2026-06-30",
+    "file": "2026-07-24",
+    "basis": "standalone"
+   },
+   "gnpa_pct": {
+    "value": 1.99,
+    "prev": 2.28,
+    "page": 22,
+    "period_end": "2026-06-30",
+    "file": "2026-07-24",
+    "basis": "standalone"
+   },
+   "casa_pct": {
+    "value": 37.72,
+    "prev": 39.33,
+    "page": 13,
+    "period_end": "2026-06-30",
+    "file": "2026-07-24",
+    "basis": "standalone"
+   },
+   "pcr_pct": {
+    "value": 93.28,
+    "prev": 93.18,
+    "page": 22,
+    "period_end": "2026-06-30",
+    "file": "2026-07-24",
+    "basis": "standalone"
    }
   },
   "FIVESTAR": {
-   "nnpa_pct": {
-    "value": 2.1,
-    "prev": 1.46,
-    "page": 28,
-    "period_end": "2026-06-30",
-    "file": "2026-07-25",
-    "basis": "standalone"
-   },
    "gnpa_pct": {
     "value": 3.46,
     "prev": 2.64,
@@ -104730,6 +104954,14 @@
     "period_end": "2026-06-30",
     "file": "2026-07-25",
     "basis": "standalone"
+   },
+   "nnpa_pct": {
+    "value": 2.1,
+    "prev": 1.46,
+    "page": 28,
+    "period_end": "2026-06-30",
+    "file": "2026-07-25",
+    "basis": "standalone"
    }
   },
   "IDFCFIRSTB": {
@@ -104737,6 +104969,14 @@
     "value": 50.8,
     "prev": 48.0,
     "page": 19,
+    "period_end": "2026-06-30",
+    "file": "2026-07-25",
+    "basis": "standalone"
+   },
+   "gnpa_pct": {
+    "value": 1.51,
+    "prev": 1.97,
+    "page": 42,
     "period_end": "2026-06-30",
     "file": "2026-07-25",
     "basis": "standalone"
@@ -104756,38 +104996,12 @@
     "period_end": "2026-06-30",
     "file": "2026-07-25",
     "basis": "standalone"
-   },
-   "gnpa_pct": {
-    "value": 1.51,
-    "prev": 1.97,
-    "page": 42,
-    "period_end": "2026-06-30",
-    "file": "2026-07-25",
-    "basis": "standalone"
-   }
-  },
-  "HOMEFIRST": {
-   "aum_cr": {
-    "value": 16937.9,
-    "prev": 13472.0,
-    "page": 7,
-    "period_end": "2026-06-30",
-    "file": "2026-07-27",
-    "basis": "standalone"
    }
   },
   "TMB": {
    "pcr_pct": {
     "value": 96.04,
     "prev": 94.32,
-    "page": 24,
-    "period_end": "2026-06-30",
-    "file": "2026-07-27",
-    "basis": "standalone"
-   },
-   "nnpa_pct": {
-    "value": 0.17,
-    "prev": 0.33,
     "page": 24,
     "period_end": "2026-06-30",
     "file": "2026-07-27",
@@ -104808,6 +105022,40 @@
     "period_end": "2026-06-30",
     "file": "2026-07-27",
     "basis": "standalone"
+   },
+   "nnpa_pct": {
+    "value": 0.17,
+    "prev": 0.33,
+    "page": 24,
+    "period_end": "2026-06-30",
+    "file": "2026-07-27",
+    "basis": "standalone"
+   }
+  },
+  "NORTHARC": {
+   "nnpa_pct": {
+    "value": 0.5,
+    "prev": null,
+    "page": 6,
+    "period_end": "2026-06-30",
+    "file": "2026-07-27",
+    "basis": "consolidated"
+   },
+   "aum_cr": {
+    "value": 16855.0,
+    "prev": 13351.0,
+    "page": 7,
+    "period_end": "2026-06-30",
+    "file": "2026-07-27",
+    "basis": "consolidated"
+   },
+   "gnpa_pct": {
+    "value": 1.0,
+    "prev": 1.2,
+    "page": 25,
+    "period_end": "2026-06-30",
+    "file": "2026-07-27",
+    "basis": "consolidated"
    }
   },
   "HUDCO": {
@@ -104828,69 +105076,27 @@
     "basis": "standalone"
    }
   },
-  "NORTHARC": {
-   "gnpa_pct": {
-    "value": 1.0,
-    "prev": 1.2,
-    "page": 25,
-    "period_end": "2026-06-30",
-    "file": "2026-07-27",
-    "basis": "consolidated"
-   },
-   "nnpa_pct": {
-    "value": 0.5,
-    "prev": null,
-    "page": 6,
-    "period_end": "2026-06-30",
-    "file": "2026-07-27",
-    "basis": "consolidated"
-   },
+  "HOMEFIRST": {
    "aum_cr": {
-    "value": 16855.0,
-    "prev": 13351.0,
+    "value": 16937.9,
+    "prev": 13472.0,
     "page": 7,
     "period_end": "2026-06-30",
     "file": "2026-07-27",
-    "basis": "consolidated"
-   }
-  },
-  "CHOLAFIN": {
-   "nnpa_pct": {
-    "value": 1.78,
-    "prev": 1.9,
-    "page": 23,
-    "period_end": "2026-06-30",
-    "file": "2026-07-28",
-    "basis": "standalone"
-   },
-   "gnpa_pct": {
-    "value": 3.29,
-    "prev": 3.16,
-    "page": 8,
-    "period_end": "2026-06-30",
-    "file": "2026-07-28",
-    "basis": "standalone"
-   },
-   "aum_cr": {
-    "value": 233586.0,
-    "prev": 192148.0,
-    "page": 8,
-    "period_end": "2026-06-30",
-    "file": "2026-07-28",
     "basis": "standalone"
    }
   },
   "CUB": {
-   "gnpa_pct": {
-    "value": 1.73,
+   "pcr_pct": {
+    "value": 85.0,
     "prev": null,
     "page": 9,
     "period_end": "2026-06-30",
     "file": "2026-07-28",
     "basis": "standalone"
    },
-   "pcr_pct": {
-    "value": 85.0,
+   "gnpa_pct": {
+    "value": 1.73,
     "prev": null,
     "page": 9,
     "period_end": "2026-06-30",
@@ -104907,6 +105113,14 @@
    }
   },
   "TATACAP": {
+   "nnpa_pct": {
+    "value": 0.8,
+    "prev": 1.0,
+    "page": 26,
+    "period_end": "2026-06-30",
+    "file": "2026-07-28",
+    "basis": "consolidated"
+   },
    "aum_cr": {
     "value": 290502.0,
     "prev": 237508.0,
@@ -104922,28 +105136,38 @@
     "period_end": "2026-06-30",
     "file": "2026-07-28",
     "basis": "consolidated"
-   },
-   "nnpa_pct": {
-    "value": 0.8,
-    "prev": 1.0,
-    "page": 26,
-    "period_end": "2026-06-30",
-    "file": "2026-07-28",
-    "basis": "consolidated"
    }
   },
-  "EQUITASBNK": {
-   "casa_pct": {
-    "value": 25.0,
-    "prev": 29.0,
-    "page": 6,
+  "CHOLAFIN": {
+   "gnpa_pct": {
+    "value": 3.29,
+    "prev": 3.16,
+    "page": 8,
     "period_end": "2026-06-30",
     "file": "2026-07-28",
     "basis": "standalone"
    },
-   "gnpa_pct": {
-    "value": 2.36,
-    "prev": 2.82,
+   "aum_cr": {
+    "value": 233586.0,
+    "prev": 192148.0,
+    "page": 8,
+    "period_end": "2026-06-30",
+    "file": "2026-07-28",
+    "basis": "standalone"
+   },
+   "nnpa_pct": {
+    "value": 1.78,
+    "prev": 1.9,
+    "page": 23,
+    "period_end": "2026-06-30",
+    "file": "2026-07-28",
+    "basis": "standalone"
+   }
+  },
+  "EQUITASBNK": {
+   "pcr_pct": {
+    "value": 71.02,
+    "prev": 67.03,
     "page": 6,
     "period_end": "2026-06-30",
     "file": "2026-07-28",
@@ -104957,12 +105181,54 @@
     "file": "2026-07-28",
     "basis": "standalone"
    },
-   "pcr_pct": {
-    "value": 71.02,
-    "prev": 67.03,
+   "gnpa_pct": {
+    "value": 2.36,
+    "prev": 2.82,
     "page": 6,
     "period_end": "2026-06-30",
     "file": "2026-07-28",
+    "basis": "standalone"
+   },
+   "casa_pct": {
+    "value": 25.0,
+    "prev": 29.0,
+    "page": 6,
+    "period_end": "2026-06-30",
+    "file": "2026-07-28",
+    "basis": "standalone"
+   }
+  },
+  "KTKBANK": {
+   "nnpa_pct": {
+    "value": 0.87,
+    "prev": 1.44,
+    "page": 11,
+    "period_end": "2026-06-30",
+    "file": "2026-07-29",
+    "basis": "standalone"
+   },
+   "casa_pct": {
+    "value": 32.42,
+    "prev": 30.84,
+    "page": 11,
+    "period_end": "2026-06-30",
+    "file": "2026-07-29",
+    "basis": "standalone"
+   },
+   "pcr_pct": {
+    "value": 84.7,
+    "prev": 81.11,
+    "page": 11,
+    "period_end": "2026-06-30",
+    "file": "2026-07-29",
+    "basis": "standalone"
+   },
+   "gnpa_pct": {
+    "value": 2.58,
+    "prev": 3.46,
+    "page": 11,
+    "period_end": "2026-06-30",
+    "file": "2026-07-29",
     "basis": "standalone"
    }
   },
@@ -104992,38 +105258,30 @@
     "basis": "standalone"
    }
   },
-  "KTKBANK": {
-   "gnpa_pct": {
-    "value": 2.58,
-    "prev": 3.46,
-    "page": 11,
-    "period_end": "2026-06-30",
-    "file": "2026-07-29",
-    "basis": "standalone"
-   },
-   "pcr_pct": {
-    "value": 84.7,
-    "prev": 81.11,
-    "page": 11,
-    "period_end": "2026-06-30",
-    "file": "2026-07-29",
-    "basis": "standalone"
-   },
+  "BAJFINANCE": {
    "nnpa_pct": {
-    "value": 0.87,
-    "prev": 1.44,
-    "page": 11,
+    "value": 0.39,
+    "prev": 0.5,
+    "page": 9,
     "period_end": "2026-06-30",
-    "file": "2026-07-29",
-    "basis": "standalone"
+    "file": "2026-07-30",
+    "basis": "consolidated"
    },
-   "casa_pct": {
-    "value": 32.42,
-    "prev": 30.84,
-    "page": 11,
+   "aum_cr": {
+    "value": 546944.0,
+    "prev": 441450.0,
+    "page": 38,
     "period_end": "2026-06-30",
-    "file": "2026-07-29",
-    "basis": "standalone"
+    "file": "2026-07-30",
+    "basis": "consolidated"
+   },
+   "gnpa_pct": {
+    "value": 0.96,
+    "prev": 1.03,
+    "page": 9,
+    "period_end": "2026-06-30",
+    "file": "2026-07-30",
+    "basis": "consolidated"
    }
   },
   "LICHSGFIN": {
@@ -105044,41 +105302,25 @@
     "basis": "standalone"
    }
   },
-  "BAJFINANCE": {
+  "ABCAPITAL": {
    "aum_cr": {
-    "value": 546944.0,
-    "prev": 441450.0,
-    "page": 38,
-    "period_end": "2026-06-30",
-    "file": "2026-07-30",
-    "basis": "consolidated"
-   },
-   "gnpa_pct": {
-    "value": 0.96,
-    "prev": 1.03,
-    "page": 9,
-    "period_end": "2026-06-30",
-    "file": "2026-07-30",
-    "basis": "consolidated"
-   },
-   "nnpa_pct": {
-    "value": 0.39,
-    "prev": 0.5,
-    "page": 9,
-    "period_end": "2026-06-30",
-    "file": "2026-07-30",
-    "basis": "consolidated"
-   }
-  },
-  "APTUS": {
-   "nnpa_pct": {
-    "value": 1.29,
-    "prev": 1.1,
-    "page": 3,
+    "value": 167456.0,
+    "prev": 131227.0,
+    "page": 20,
     "period_end": "2026-06-30",
     "file": "2026-07-31",
     "basis": "standalone"
    },
+   "gnpa_pct": {
+    "value": 1.3,
+    "prev": 2.27,
+    "page": 25,
+    "period_end": "2026-06-30",
+    "file": "2026-07-31",
+    "basis": "standalone"
+   }
+  },
+  "APTUS": {
    "aum_cr": {
     "value": 13648.0,
     "prev": 11267.0,
@@ -105086,13 +105328,21 @@
     "period_end": "2026-06-30",
     "file": "2026-07-31",
     "basis": "standalone"
+   },
+   "nnpa_pct": {
+    "value": 1.29,
+    "prev": 1.1,
+    "page": 3,
+    "period_end": "2026-06-30",
+    "file": "2026-07-31",
+    "basis": "standalone"
    }
   },
   "ESAFSFB": {
-   "casa_pct": {
-    "value": 23.4,
-    "prev": 24.8,
-    "page": 6,
+   "pcr_pct": {
+    "value": 85.5,
+    "prev": 73.2,
+    "page": 4,
     "period_end": "2026-06-30",
     "file": "2026-07-31",
     "basis": "standalone"
@@ -105105,42 +105355,16 @@
     "file": "2026-07-31",
     "basis": "standalone"
    },
-   "pcr_pct": {
-    "value": 85.5,
-    "prev": 73.2,
-    "page": 4,
-    "period_end": "2026-06-30",
-    "file": "2026-07-31",
-    "basis": "standalone"
-   }
-  },
-  "ABCAPITAL": {
-   "gnpa_pct": {
-    "value": 1.3,
-    "prev": 2.27,
-    "page": 25,
-    "period_end": "2026-06-30",
-    "file": "2026-07-31",
-    "basis": "standalone"
-   },
-   "aum_cr": {
-    "value": 167456.0,
-    "prev": 131227.0,
-    "page": 20,
+   "casa_pct": {
+    "value": 23.4,
+    "prev": 24.8,
+    "page": 6,
     "period_end": "2026-06-30",
     "file": "2026-07-31",
     "basis": "standalone"
    }
   },
   "UTKARSHBNK": {
-   "casa_pct": {
-    "value": 22.0,
-    "prev": 20.0,
-    "page": 3,
-    "period_end": "2026-06-30",
-    "file": "2026-08-01",
-    "basis": "standalone"
-   },
    "pcr_pct": {
     "value": 54.6,
     "prev": 59.2,
@@ -105149,9 +105373,9 @@
     "file": "2026-08-01",
     "basis": "standalone"
    },
-   "nnpa_pct": {
-    "value": 2.8,
-    "prev": 5.0,
+   "casa_pct": {
+    "value": 22.0,
+    "prev": 20.0,
     "page": 3,
     "period_end": "2026-06-30",
     "file": "2026-08-01",
@@ -105160,6 +105384,14 @@
    "gnpa_pct": {
     "value": 5.9,
     "prev": 11.4,
+    "page": 3,
+    "period_end": "2026-06-30",
+    "file": "2026-08-01",
+    "basis": "standalone"
+   },
+   "nnpa_pct": {
+    "value": 2.8,
+    "prev": 5.0,
     "page": 3,
     "period_end": "2026-06-30",
     "file": "2026-08-01",
@@ -105184,30 +105416,30 @@
     "basis": "standalone"
    }
   },
-  "SUNDARMFIN": {
-   "aum_cr": {
-    "value": 62275.0,
-    "prev": 53278.0,
-    "page": 3,
+  "JMFINANCIL": {
+   "nnpa_pct": {
+    "value": 0.5,
+    "prev": 1.0,
+    "page": 20,
     "period_end": "2026-06-30",
     "file": "2026-08-03",
-    "basis": "standalone"
+    "basis": "consolidated"
    },
    "gnpa_pct": {
-    "value": 1.71,
-    "prev": 1.91,
-    "page": 3,
+    "value": 0.75,
+    "prev": 1.5,
+    "page": 20,
     "period_end": "2026-06-30",
     "file": "2026-08-03",
-    "basis": "standalone"
+    "basis": "consolidated"
    },
-   "nnpa_pct": {
-    "value": 0.88,
-    "prev": 1.08,
-    "page": 3,
+   "aum_cr": {
+    "value": 3715.0,
+    "prev": 2911.0,
+    "page": 20,
     "period_end": "2026-06-30",
     "file": "2026-08-03",
-    "basis": "standalone"
+    "basis": "consolidated"
    }
   },
   "IREDA": {
@@ -105236,35 +105468,35 @@
     "basis": "standalone"
    }
   },
-  "JMFINANCIL": {
+  "SUNDARMFIN": {
    "nnpa_pct": {
-    "value": 0.5,
-    "prev": 1.0,
-    "page": 20,
+    "value": 0.88,
+    "prev": 1.08,
+    "page": 3,
     "period_end": "2026-06-30",
     "file": "2026-08-03",
-    "basis": "consolidated"
-   },
-   "aum_cr": {
-    "value": 3715.0,
-    "prev": 2911.0,
-    "page": 20,
-    "period_end": "2026-06-30",
-    "file": "2026-08-03",
-    "basis": "consolidated"
+    "basis": "standalone"
    },
    "gnpa_pct": {
-    "value": 0.75,
-    "prev": 1.5,
-    "page": 20,
+    "value": 1.71,
+    "prev": 1.91,
+    "page": 3,
     "period_end": "2026-06-30",
     "file": "2026-08-03",
-    "basis": "consolidated"
+    "basis": "standalone"
+   },
+   "aum_cr": {
+    "value": 62275.0,
+    "prev": 53278.0,
+    "page": 3,
+    "period_end": "2026-06-30",
+    "file": "2026-08-03",
+    "basis": "standalone"
    }
   },
   "UGROCAP": {
-   "aum_cr": {
-    "value": 15013.0,
+   "nnpa_pct": {
+    "value": 1.9,
     "prev": null,
     "page": 15,
     "period_end": "2026-06-30",
@@ -105279,8 +105511,8 @@
     "file": "2026-08-04",
     "basis": "consolidated"
    },
-   "nnpa_pct": {
-    "value": 1.9,
+   "aum_cr": {
+    "value": 15013.0,
     "prev": null,
     "page": 15,
     "period_end": "2026-06-30",
@@ -105289,14 +105521,6 @@
    }
   },
   "PNBHOUSING": {
-   "gnpa_pct": {
-    "value": 0.95,
-    "prev": 1.06,
-    "page": 25,
-    "period_end": "2026-06-30",
-    "file": "2026-08-04",
-    "basis": "consolidated"
-   },
    "aum_cr": {
     "value": 93021.0,
     "prev": 82100.0,
@@ -105304,9 +105528,25 @@
     "period_end": "2026-06-30",
     "file": "2026-08-04",
     "basis": "consolidated"
+   },
+   "gnpa_pct": {
+    "value": 0.95,
+    "prev": 1.06,
+    "page": 25,
+    "period_end": "2026-06-30",
+    "file": "2026-08-04",
+    "basis": "consolidated"
    }
   },
   "INDIASHLTR": {
+   "nnpa_pct": {
+    "value": 1.2,
+    "prev": 0.9,
+    "page": 5,
+    "period_end": "2026-06-30",
+    "file": "2026-08-06",
+    "basis": "standalone"
+   },
    "gnpa_pct": {
     "value": 1.5,
     "prev": 1.2,
@@ -105319,14 +105559,6 @@
     "value": 11284.0,
     "prev": 9120.0,
     "page": 16,
-    "period_end": "2026-06-30",
-    "file": "2026-08-06",
-    "basis": "standalone"
-   },
-   "nnpa_pct": {
-    "value": 1.2,
-    "prev": 0.9,
-    "page": 5,
     "period_end": "2026-06-30",
     "file": "2026-08-06",
     "basis": "standalone"
@@ -105349,14 +105581,6 @@
     "file": "2026-08-07",
     "basis": "standalone"
    },
-   "gnpa_pct": {
-    "value": 1.47,
-    "prev": 1.83,
-    "page": 9,
-    "period_end": "2026-06-30",
-    "file": "2026-08-07",
-    "basis": "standalone"
-   },
    "casa_pct": {
     "value": 39.24,
     "prev": null,
@@ -105364,9 +105588,35 @@
     "period_end": "2026-06-30",
     "file": "2026-08-07",
     "basis": "standalone"
+   },
+   "gnpa_pct": {
+    "value": 1.47,
+    "prev": 1.83,
+    "page": 9,
+    "period_end": "2026-06-30",
+    "file": "2026-08-07",
+    "basis": "standalone"
+   }
+  },
+  "MANAPPURAM": {
+   "aum_cr": {
+    "value": 60971.0,
+    "prev": 35698.0,
+    "page": 14,
+    "period_end": "2026-06-30",
+    "file": "2026-08-11",
+    "basis": "standalone"
    }
   },
   "REPCOHOME": {
+   "nnpa_pct": {
+    "value": 1.23,
+    "prev": 1.17,
+    "page": 16,
+    "period_end": "2026-06-30",
+    "file": "2026-08-11",
+    "basis": "standalone"
+   },
    "gnpa_pct": {
     "value": 2.67,
     "prev": 3.3,
@@ -105379,24 +105629,6 @@
     "value": 15990.0,
     "prev": 14690.0,
     "page": 21,
-    "period_end": "2026-06-30",
-    "file": "2026-08-11",
-    "basis": "standalone"
-   },
-   "nnpa_pct": {
-    "value": 1.23,
-    "prev": 1.17,
-    "page": 16,
-    "period_end": "2026-06-30",
-    "file": "2026-08-11",
-    "basis": "standalone"
-   }
-  },
-  "MANAPPURAM": {
-   "aum_cr": {
-    "value": 60971.0,
-    "prev": 35698.0,
-    "page": 14,
     "period_end": "2026-06-30",
     "file": "2026-08-11",
     "basis": "standalone"
@@ -105421,9 +105653,9 @@
    }
   },
   "KOTAKBANK": {
-   "pcr_pct": {
-    "value": 78.0,
-    "prev": 77.0,
+   "gnpa_pct": {
+    "value": 1.18,
+    "prev": 1.48,
     "page": 24,
     "period_end": "2026-06-30",
     "file": "2026-08-17",
@@ -105437,9 +105669,9 @@
     "file": "2026-08-17",
     "basis": "standalone"
    },
-   "gnpa_pct": {
-    "value": 1.18,
-    "prev": 1.48,
+   "pcr_pct": {
+    "value": 78.0,
+    "prev": 77.0,
     "page": 24,
     "period_end": "2026-06-30",
     "file": "2026-08-17",
@@ -105455,16 +105687,16 @@
    }
   },
   "UNIONBANK": {
-   "nnpa_pct": {
-    "value": 0.47,
+   "pcr_pct": {
+    "value": 95.05,
     "prev": null,
     "page": 13,
     "period_end": "2026-06-30",
     "file": "2026-08-21",
     "basis": "standalone"
    },
-   "pcr_pct": {
-    "value": 95.05,
+   "nnpa_pct": {
+    "value": 0.47,
     "prev": null,
     "page": 13,
     "period_end": "2026-06-30",
@@ -105485,40 +105717,6 @@
     "page": 12,
     "period_end": "2026-06-30",
     "file": "2026-08-21",
-    "basis": "standalone"
-   }
-  },
-  "PSB": {
-   "pcr_pct": {
-    "value": 92.33,
-    "prev": 91.77,
-    "page": 36,
-    "period_end": "2026-06-30",
-    "file": "2026-09-01",
-    "basis": "standalone"
-   },
-   "gnpa_pct": {
-    "value": 2.21,
-    "prev": 3.34,
-    "page": 36,
-    "period_end": "2026-06-30",
-    "file": "2026-09-01",
-    "basis": "standalone"
-   },
-   "nnpa_pct": {
-    "value": 0.65,
-    "prev": 0.91,
-    "page": 36,
-    "period_end": "2026-06-30",
-    "file": "2026-09-01",
-    "basis": "standalone"
-   },
-   "casa_pct": {
-    "value": 30.06,
-    "prev": 30.59,
-    "page": 11,
-    "period_end": "2026-06-30",
-    "file": "2026-09-01",
     "basis": "standalone"
    }
   },
@@ -105548,6 +105746,40 @@
     "basis": "consolidated"
    }
   },
+  "PSB": {
+   "pcr_pct": {
+    "value": 92.33,
+    "prev": 91.77,
+    "page": 36,
+    "period_end": "2026-06-30",
+    "file": "2026-09-01",
+    "basis": "standalone"
+   },
+   "nnpa_pct": {
+    "value": 0.65,
+    "prev": 0.91,
+    "page": 36,
+    "period_end": "2026-06-30",
+    "file": "2026-09-01",
+    "basis": "standalone"
+   },
+   "gnpa_pct": {
+    "value": 2.21,
+    "prev": 3.34,
+    "page": 36,
+    "period_end": "2026-06-30",
+    "file": "2026-09-01",
+    "basis": "standalone"
+   },
+   "casa_pct": {
+    "value": 30.06,
+    "prev": 30.59,
+    "page": 11,
+    "period_end": "2026-06-30",
+    "file": "2026-09-01",
+    "basis": "standalone"
+   }
+  },
   "MAHABANK": {
    "pcr_pct": {
     "value": 98.55,
@@ -105575,10 +105807,10 @@
    }
   },
   "BANKINDIA": {
-   "pcr_pct": {
-    "value": 93.83,
+   "casa_pct": {
+    "value": 36.68,
     "prev": null,
-    "page": 34,
+    "page": 14,
     "period_end": "2026-06-30",
     "file": "2026-09-08",
     "basis": "standalone"
@@ -105599,50 +105831,24 @@
     "file": "2026-09-08",
     "basis": "standalone"
    },
-   "casa_pct": {
-    "value": 36.68,
+   "pcr_pct": {
+    "value": 93.83,
     "prev": null,
-    "page": 14,
+    "page": 34,
     "period_end": "2026-06-30",
     "file": "2026-09-08",
     "basis": "standalone"
    }
   },
-  "CENTRALBK": {
-   "nnpa_pct": {
-    "value": 0.49,
-    "prev": 0.49,
-    "page": 9,
-    "period_end": "2026-06-30",
-    "file": "2026-09-30",
-    "basis": "standalone"
-   },
-   "pcr_pct": {
-    "value": 95.86,
-    "prev": null,
-    "page": 16,
-    "period_end": "2026-06-30",
-    "file": "2026-09-30",
-    "basis": "standalone"
-   },
-   "casa_pct": {
-    "value": 46.61,
-    "prev": null,
-    "page": 12,
-    "period_end": "2026-06-30",
-    "file": "2026-09-30",
-    "basis": "standalone"
-   },
-   "gnpa_pct": {
-    "value": 2.6,
-    "prev": 3.13,
-    "page": 9,
-    "period_end": "2026-06-30",
-    "file": "2026-09-30",
-    "basis": "standalone"
-   }
-  },
   "POONAWALLA": {
+   "aum_cr": {
+    "value": 74008.0,
+    "prev": 47701.0,
+    "page": 20,
+    "period_end": "2026-09-30",
+    "file": "2026-10-09",
+    "basis": "standalone"
+   },
    "gnpa_pct": {
     "value": 1.2,
     "prev": 1.59,
@@ -105658,17 +105864,17 @@
     "period_end": "2026-09-30",
     "file": "2026-10-09",
     "basis": "standalone"
-   },
-   "aum_cr": {
-    "value": 74008.0,
-    "prev": 47701.0,
-    "page": 20,
-    "period_end": "2026-09-30",
-    "file": "2026-10-09",
-    "basis": "standalone"
    }
   },
   "RBLBANK": {
+   "pcr_pct": {
+    "value": 71.47,
+    "prev": null,
+    "page": 4,
+    "period_end": "2026-09-30",
+    "file": "2026-10-12",
+    "basis": "standalone"
+   },
    "nnpa_pct": {
     "value": 0.29,
     "prev": null,
@@ -105692,27 +105898,19 @@
     "period_end": "2026-09-30",
     "file": "2026-10-12",
     "basis": "standalone"
-   },
-   "pcr_pct": {
-    "value": 71.47,
-    "prev": null,
-    "page": 4,
-    "period_end": "2026-09-30",
-    "file": "2026-10-12",
-    "basis": "standalone"
    }
   },
   "PIRAMALFIN": {
-   "nnpa_pct": {
-    "value": 1.6,
+   "gnpa_pct": {
+    "value": 2.4,
     "prev": null,
     "page": 13,
     "period_end": "2026-06-30",
     "file": "2026-10-13",
     "basis": "consolidated"
    },
-   "gnpa_pct": {
-    "value": 2.4,
+   "nnpa_pct": {
+    "value": 1.6,
     "prev": null,
     "page": 13,
     "period_end": "2026-06-30",
@@ -105737,18 +105935,18 @@
     "file": "2026-10-14",
     "basis": "consolidated"
    },
-   "casa_pct": {
-    "value": 29.0,
-    "prev": null,
-    "page": 45,
-    "period_end": "2026-09-30",
-    "file": "2026-10-14",
-    "basis": "consolidated"
-   },
    "pcr_pct": {
     "value": 95.34,
     "prev": 93.59,
     "page": 28,
+    "period_end": "2026-09-30",
+    "file": "2026-10-14",
+    "basis": "consolidated"
+   },
+   "casa_pct": {
+    "value": 29.0,
+    "prev": null,
+    "page": 45,
     "period_end": "2026-09-30",
     "file": "2026-10-14",
     "basis": "consolidated"
@@ -105781,14 +105979,6 @@
    }
   },
   "HDBFS": {
-   "nnpa_pct": {
-    "value": 1.09,
-    "prev": null,
-    "page": 11,
-    "period_end": "2026-09-30",
-    "file": "2026-10-14",
-    "basis": "standalone"
-   },
    "aum_cr": {
     "value": 124469.0,
     "prev": 111409.0,
@@ -105804,77 +105994,35 @@
     "period_end": "2026-09-30",
     "file": "2026-10-14",
     "basis": "standalone"
-   }
-  },
-  "INDIANB": {
-   "pcr_pct": {
-    "value": 98.22,
-    "prev": 98.28,
-    "page": 29,
-    "period_end": "2026-09-30",
-    "file": "2026-10-15",
-    "basis": "standalone"
-   },
-   "gnpa_pct": {
-    "value": 1.61,
-    "prev": 2.6,
-    "page": 29,
-    "period_end": "2026-09-30",
-    "file": "2026-10-15",
-    "basis": "standalone"
-   },
-   "casa_pct": {
-    "value": 39.36,
-    "prev": 38.87,
-    "page": 8,
-    "period_end": "2026-09-30",
-    "file": "2026-10-15",
-    "basis": "standalone"
    },
    "nnpa_pct": {
-    "value": 0.14,
-    "prev": 0.16,
-    "page": 29,
+    "value": 1.09,
+    "prev": null,
+    "page": 11,
     "period_end": "2026-09-30",
-    "file": "2026-10-15",
+    "file": "2026-10-14",
     "basis": "standalone"
    }
   },
-  "FEDFINA": {
-   "gnpa_pct": {
-    "value": 1.8,
-    "prev": 1.9,
-    "page": 33,
-    "period_end": "2026-09-30",
-    "file": "2026-10-15",
-    "basis": "standalone"
-   },
+  "LTF": {
    "nnpa_pct": {
-    "value": 1.2,
-    "prev": 1.3,
-    "page": 33,
+    "value": 0.85,
+    "prev": 1.0,
+    "page": 46,
     "period_end": "2026-09-30",
     "file": "2026-10-15",
-    "basis": "standalone"
+    "basis": "consolidated"
    },
    "aum_cr": {
-    "value": 22035.0,
-    "prev": 16136.0,
-    "page": 33,
+    "value": 136635.0,
+    "prev": 107096.0,
+    "page": 50,
     "period_end": "2026-09-30",
     "file": "2026-10-15",
-    "basis": "standalone"
+    "basis": "consolidated"
    }
   },
   "KARURVYSYA": {
-   "casa_pct": {
-    "value": 27.52,
-    "prev": 27.65,
-    "page": 14,
-    "period_end": "2026-09-30",
-    "file": "2026-10-15",
-    "basis": "standalone"
-   },
    "pcr_pct": {
     "value": 96.13,
     "prev": null,
@@ -105898,12 +106046,62 @@
     "period_end": "2026-09-30",
     "file": "2026-10-15",
     "basis": "standalone"
+   },
+   "casa_pct": {
+    "value": 27.52,
+    "prev": 27.65,
+    "page": 14,
+    "period_end": "2026-09-30",
+    "file": "2026-10-15",
+    "basis": "standalone"
+   }
+  },
+  "INDIANB": {
+   "pcr_pct": {
+    "value": 98.22,
+    "prev": 98.28,
+    "page": 29,
+    "period_end": "2026-09-30",
+    "file": "2026-10-15",
+    "basis": "standalone"
+   },
+   "nnpa_pct": {
+    "value": 0.14,
+    "prev": 0.16,
+    "page": 29,
+    "period_end": "2026-09-30",
+    "file": "2026-10-15",
+    "basis": "standalone"
+   },
+   "gnpa_pct": {
+    "value": 1.61,
+    "prev": 2.6,
+    "page": 29,
+    "period_end": "2026-09-30",
+    "file": "2026-10-15",
+    "basis": "standalone"
+   },
+   "casa_pct": {
+    "value": 39.36,
+    "prev": 38.87,
+    "page": 8,
+    "period_end": "2026-09-30",
+    "file": "2026-10-15",
+    "basis": "standalone"
    }
   },
   "SOUTHBANK": {
-   "pcr_pct": {
-    "value": 97.84,
-    "prev": 90.25,
+   "casa_pct": {
+    "value": 31.55,
+    "prev": 31.86,
+    "page": 31,
+    "period_end": "2026-09-30",
+    "file": "2026-10-15",
+    "basis": "standalone"
+   },
+   "gnpa_pct": {
+    "value": 1.24,
+    "prev": 2.93,
     "page": 32,
     "period_end": "2026-09-30",
     "file": "2026-10-15",
@@ -105917,50 +106115,68 @@
     "file": "2026-10-15",
     "basis": "standalone"
    },
-   "gnpa_pct": {
-    "value": 1.24,
-    "prev": 2.93,
+   "pcr_pct": {
+    "value": 97.84,
+    "prev": 90.25,
     "page": 32,
     "period_end": "2026-09-30",
     "file": "2026-10-15",
     "basis": "standalone"
+   }
+  },
+  "FEDFINA": {
+   "aum_cr": {
+    "value": 22035.0,
+    "prev": 16136.0,
+    "page": 33,
+    "period_end": "2026-09-30",
+    "file": "2026-10-15",
+    "basis": "standalone"
    },
-   "casa_pct": {
-    "value": 31.55,
-    "prev": 31.86,
-    "page": 31,
+   "nnpa_pct": {
+    "value": 1.2,
+    "prev": 1.3,
+    "page": 33,
+    "period_end": "2026-09-30",
+    "file": "2026-10-15",
+    "basis": "standalone"
+   },
+   "gnpa_pct": {
+    "value": 1.8,
+    "prev": 1.9,
+    "page": 33,
     "period_end": "2026-09-30",
     "file": "2026-10-15",
     "basis": "standalone"
    }
   },
-  "LTF": {
-   "aum_cr": {
-    "value": 136635.0,
-    "prev": 107096.0,
-    "page": 50,
-    "period_end": "2026-09-30",
-    "file": "2026-10-15",
-    "basis": "consolidated"
-   },
-   "nnpa_pct": {
-    "value": 0.85,
-    "prev": 1.0,
-    "page": 46,
-    "period_end": "2026-09-30",
-    "file": "2026-10-15",
-    "basis": "consolidated"
-   }
-  },
-  "FEDERALBNK": {
-   "casa_pct": {
-    "value": 32.04,
-    "prev": 31.01,
-    "page": 11,
+  "UJJIVANSFB": {
+   "gnpa_pct": {
+    "value": 2.1,
+    "prev": 2.5,
+    "page": 6,
     "period_end": "2026-09-30",
     "file": "2026-10-16",
     "basis": "standalone"
    },
+   "casa_pct": {
+    "value": 26.0,
+    "prev": null,
+    "page": 5,
+    "period_end": "2026-09-30",
+    "file": "2026-10-16",
+    "basis": "standalone"
+   },
+   "nnpa_pct": {
+    "value": 0.31,
+    "prev": 0.7,
+    "page": 23,
+    "period_end": "2026-09-30",
+    "file": "2026-10-16",
+    "basis": "standalone"
+   }
+  },
+  "FEDERALBNK": {
    "gnpa_pct": {
     "value": 1.32,
     "prev": 1.83,
@@ -105969,9 +106185,9 @@
     "file": "2026-10-16",
     "basis": "standalone"
    },
-   "nnpa_pct": {
-    "value": 0.17,
-    "prev": 0.48,
+   "casa_pct": {
+    "value": 32.04,
+    "prev": 31.01,
     "page": 11,
     "period_end": "2026-09-30",
     "file": "2026-10-16",
@@ -105980,6 +106196,14 @@
    "pcr_pct": {
     "value": 86.78,
     "prev": 73.45,
+    "page": 11,
+    "period_end": "2026-09-30",
+    "file": "2026-10-16",
+    "basis": "standalone"
+   },
+   "nnpa_pct": {
+    "value": 0.17,
+    "prev": 0.48,
     "page": 11,
     "period_end": "2026-09-30",
     "file": "2026-10-16",
@@ -106003,14 +106227,6 @@
     "file": "2026-10-16",
     "basis": "standalone"
    },
-   "nnpa_pct": {
-    "value": 0.25,
-    "prev": 0.36,
-    "page": 48,
-    "period_end": "2026-09-30",
-    "file": "2026-10-16",
-    "basis": "standalone"
-   },
    "pcr_pct": {
     "value": 97.32,
     "prev": 96.91,
@@ -106018,20 +106234,28 @@
     "period_end": "2026-09-30",
     "file": "2026-10-16",
     "basis": "standalone"
+   },
+   "nnpa_pct": {
+    "value": 0.25,
+    "prev": 0.36,
+    "page": 48,
+    "period_end": "2026-09-30",
+    "file": "2026-10-16",
+    "basis": "standalone"
    }
   },
   "BAJAJHFL": {
-   "gnpa_pct": {
-    "value": 0.29,
-    "prev": 0.26,
+   "nnpa_pct": {
+    "value": 0.12,
+    "prev": 0.12,
     "page": 38,
     "period_end": "2026-09-30",
     "file": "2026-10-16",
     "basis": "standalone"
    },
-   "nnpa_pct": {
-    "value": 0.12,
-    "prev": 0.12,
+   "gnpa_pct": {
+    "value": 0.29,
+    "prev": 0.26,
     "page": 38,
     "period_end": "2026-09-30",
     "file": "2026-10-16",
@@ -106046,29 +106270,105 @@
     "basis": "standalone"
    }
   },
-  "UJJIVANSFB": {
-   "nnpa_pct": {
-    "value": 0.31,
-    "prev": 0.7,
-    "page": 23,
+  "AXISBANK": {
+   "pcr_pct": {
+    "value": 70.0,
+    "prev": 70.0,
+    "page": 6,
     "period_end": "2026-09-30",
-    "file": "2026-10-16",
+    "file": "2026-10-17",
     "basis": "standalone"
    },
    "gnpa_pct": {
-    "value": 2.1,
-    "prev": 2.5,
-    "page": 6,
+    "value": 1.16,
+    "prev": 1.46,
+    "page": 9,
     "period_end": "2026-09-30",
-    "file": "2026-10-16",
+    "file": "2026-10-17",
+    "basis": "standalone"
+   },
+   "nnpa_pct": {
+    "value": 0.35,
+    "prev": 0.44,
+    "page": 9,
+    "period_end": "2026-09-30",
+    "file": "2026-10-17",
     "basis": "standalone"
    },
    "casa_pct": {
-    "value": 26.0,
-    "prev": null,
-    "page": 5,
+    "value": 36.0,
+    "prev": 40.0,
+    "page": 9,
     "period_end": "2026-09-30",
-    "file": "2026-10-16",
+    "file": "2026-10-17",
+    "basis": "standalone"
+   }
+  },
+  "ICICIBANK": {
+   "nnpa_pct": {
+    "value": 0.3,
+    "prev": 0.39,
+    "page": 18,
+    "period_end": "2026-09-30",
+    "file": "2026-10-17",
+    "basis": "standalone"
+   },
+   "gnpa_pct": {
+    "value": 1.2,
+    "prev": 1.58,
+    "page": 18,
+    "period_end": "2026-09-30",
+    "file": "2026-10-17",
+    "basis": "standalone"
+   },
+   "casa_pct": {
+    "value": 36.1,
+    "prev": null,
+    "page": 13,
+    "period_end": "2026-09-30",
+    "file": "2026-10-17",
+    "basis": "standalone"
+   },
+   "pcr_pct": {
+    "value": 75.0,
+    "prev": 75.0,
+    "page": 18,
+    "period_end": "2026-09-30",
+    "file": "2026-10-17",
+    "basis": "standalone"
+   }
+  },
+  "CENTRALBK": {
+   "casa_pct": {
+    "value": 44.65,
+    "prev": 46.83,
+    "page": 28,
+    "period_end": "2026-09-30",
+    "file": "2026-10-17",
+    "basis": "standalone"
+   },
+   "gnpa_pct": {
+    "value": 2.39,
+    "prev": 3.01,
+    "page": 21,
+    "period_end": "2026-09-30",
+    "file": "2026-10-17",
+    "basis": "standalone"
+   },
+   "nnpa_pct": {
+    "value": 0.31,
+    "prev": 0.48,
+    "page": 21,
+    "period_end": "2026-09-30",
+    "file": "2026-10-17",
+    "basis": "standalone"
+   },
+   "pcr_pct": {
+    "value": 97.16,
+    "prev": null,
+    "page": 50,
+    "period_end": "2026-09-30",
+    "file": "2026-10-17",
     "basis": "standalone"
    }
   }
