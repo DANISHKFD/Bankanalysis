@@ -1,0 +1,528 @@
+<title>India Banking Monitor Guide</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a handbook. Chapter list on the left, one chapter at a time on the right, prev/next at the foot. Same Ledger tokens as the monitor. */
+:root {
+  --bg: #f6f3ec; --surface: #ffffff; --side: #efebe2;
+  --ink: #17202e; --ink-2: #4a5160; --muted: #5f6573; --line: #e4ded2;
+  --accent: #1d3b6f; --accent-wash: #e8edf5; --highlight: #c2410c;
+  --yes: #0f766e; --yes-wash: #e2f1ef; --part: #855a00; --part-wash: #fbf0d6;
+  --no: #b42318; --no-wash: #fbe4e1; --ours: #1d3b6f; --ours-wash: #e8edf5;
+  --font-display: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-data: "JetBrains Mono", ui-monospace, Consolas, monospace;
+  --r: 8px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #10141c; --surface: #171c26; --side: #131822; --ink: #ece7dc; --ink-2: #c3bfb6; --muted: #9a978f; --line: #283040;
+  --accent: #a9c1ea; --accent-wash: #1d2638; --highlight: #f08a5d;
+  --yes: #4fbfae; --yes-wash: #143029; --part: #e0b252; --part-wash: #33290f; --no: #f08a7d; --no-wash: #3a1d1a; --ours: #a9c1ea; --ours-wash: #1d2638;
+  color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #10141c; --surface: #171c26; --side: #131822; --ink: #ece7dc; --ink-2: #c3bfb6; --muted: #9a978f; --line: #283040;
+  --accent: #a9c1ea; --accent-wash: #1d2638; --highlight: #f08a5d;
+  --yes: #4fbfae; --yes-wash: #143029; --part: #e0b252; --part-wash: #33290f; --no: #f08a7d; --no-wash: #3a1d1a; --ours: #a9c1ea; --ours-wash: #1d2638;
+  color-scheme: dark; }
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.6 var(--font-body); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+a { color: var(--accent); }
+:focus-visible { outline: 2px solid var(--highlight); outline-offset: 2px; border-radius: 3px; }
+
+.shell { display: grid; grid-template-columns: 290px minmax(0, 1fr); min-height: 100vh; }
+.shell > div { min-width: 0; }
+aside { background: var(--side); border-right: 1px solid var(--line); padding-block: 28px; padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: 20px; position: sticky; top: 0; height: 100vh; overflow-y: auto; }
+.brand { font: 600 20px/1.2 var(--font-display); margin: 0 0 4px; }
+.brand-sub { font-size: 13px; color: var(--muted); margin: 0 0 24px; }
+.progress { height: 3px; background: var(--line); border-radius: 2px; margin-bottom: 20px; overflow: hidden; }
+.progress i { display: block; height: 100%; background: var(--highlight); transition: width .3s; }
+nav ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+nav a { display: grid; grid-template-columns: 26px 1fr auto; gap: 8px; align-items: baseline; padding: 8px 10px; border-radius: 6px; text-decoration: none; color: var(--ink-2); font-size: 14.5px; }
+nav a span { font: 500 12px var(--font-data); color: var(--muted); }
+nav a:hover { background: var(--accent-wash); color: var(--ink); }
+nav a[aria-current="page"] { background: var(--surface); color: var(--ink); font-weight: 600; box-shadow: inset 3px 0 0 var(--highlight); }
+nav a.read::after { content: "¹3"; color: var(--yes); font-size: 13px; }
+main:focus { outline: none; }
+.side-foot { margin-top: 24px; font-size: 12.5px; color: var(--muted); line-height: 1.5; }
+
+.mobilebar { display: none; }
+main { padding-block: 48px 64px; padding-left: max(24px, env(safe-area-inset-left, 0px)); padding-right: max(24px, env(safe-area-inset-right, 0px)); }
+.page { max-width: 780px; margin: 0 auto; }
+.eyebrow { font: 500 12px var(--font-data); letter-spacing: .08em; text-transform: uppercase; color: var(--highlight); margin: 0 0 10px; }
+h1 { font: 600 clamp(30px, 4.4vw, 44px)/1.12 var(--font-display); margin: 0 0 14px; text-wrap: balance; letter-spacing: -.01em; }
+.lede { font-size: 19px; color: var(--ink-2); margin: 0 0 32px; max-width: 64ch; }
+h2 { font: 600 23px/1.25 var(--font-display); margin: 40px 0 12px; text-wrap: balance; }
+h3 { font: 600 16px/1.3 var(--font-body); margin: 24px 0 8px; }
+p, li { max-width: 68ch; }
+.page ul, .page ol.steps { padding-left: 22px; }
+.page li { margin-bottom: 8px; }
+.page li::marker { color: var(--muted); }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin: 20px 0; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 16px 18px; }
+.card b { display: block; font: 600 17px/1.3 var(--font-display); margin-bottom: 4px; }
+.card p { margin: 0; font-size: 14.5px; color: var(--ink-2); }
+.card .tag { font: 500 11.5px var(--font-data); color: var(--muted); text-transform: uppercase; letter-spacing: .06em; display: block; margin-bottom: 6px; }
+
+.note { background: var(--accent-wash); border-radius: var(--r); padding: 14px 18px; margin: 22px 0; font-size: 15px; }
+.note b { color: var(--accent); }
+
+.tablewrap { overflow-x: auto; margin: 16px 0 8px; border: 1px solid var(--line); border-radius: var(--r); background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 14.5px; }
+th { text-align: left; font: 500 12px var(--font-data); text-transform: uppercase; letter-spacing: .05em; color: var(--muted); padding: 10px 14px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+td { padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+tr:last-child td { border-bottom: 0; }
+td.k { font-weight: 600; min-width: 150px; }
+td.f { font-family: var(--font-data); font-size: 13px; min-width: 200px; }
+.num { font-variant-numeric: tabular-nums; }
+
+.pill { display: inline-block; font: 500 12px/1 var(--font-body); padding: 5px 9px; border-radius: 999px; white-space: nowrap; }
+.pill.yes { background: var(--yes-wash); color: var(--yes); }
+.pill.part { background: var(--part-wash); color: var(--part); }
+.pill.no { background: var(--no-wash); color: var(--no); }
+.pill.ours { background: var(--ours-wash); color: var(--ours); }
+
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 6px; }
+.filters button { font: 500 13.5px var(--font-body); border: 1px solid var(--line); background: var(--surface); color: var(--ink-2); padding: 7px 12px; border-radius: 999px; cursor: pointer; }
+.filters button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.filters button .c { font-family: var(--font-data); font-size: 12px; margin-left: 4px; }
+
+.score { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 24px 0; }
+.score div { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 14px; }
+.score b { display: block; font: 600 30px/1 var(--font-display); font-variant-numeric: tabular-nums; }
+.score span { font-size: 13px; color: var(--ink-2); }
+.score .yes b { color: var(--yes); } .score .part b { color: var(--part); } .score .no b { color: var(--no); } .score .ours b { color: var(--ours); }
+
+/* pipeline: the signature diagram */
+.pipe { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; margin: 26px 0 0; counter-reset: st; }
+.pipe button { position: relative; text-align: left; background: var(--surface); border: 1px solid var(--line); border-right: 0; padding: 14px 14px 14px 16px; cursor: pointer; color: var(--ink); font: inherit; min-width: 0; }
+.pipe button:first-child { border-radius: var(--r) 0 0 var(--r); }
+.pipe button:last-child { border-right: 1px solid var(--line); border-radius: 0 var(--r) var(--r) 0; }
+.pipe button span { font: 500 11.5px var(--font-data); color: var(--muted); display: block; }
+.pipe button b { font: 600 18px/1.2 var(--font-display); display: block; margin-top: 2px; }
+.pipe button small { display: block; font-size: 12.5px; color: var(--ink-2); margin-top: 4px; line-height: 1.35; }
+.pipe button[aria-selected="true"] { background: var(--ink); color: var(--bg); }
+.pipe button[aria-selected="true"] span, .pipe button[aria-selected="true"] small { color: var(--bg); }
+.stage { background: var(--surface); border: 1px solid var(--line); border-top: 3px solid var(--highlight); border-radius: 0 0 var(--r) var(--r); padding: 6px 22px 20px; margin-bottom: 20px; }
+
+.timeline { list-style: none; padding: 0 !important; margin: 20px 0; border-left: 2px solid var(--line); }
+.timeline li { position: relative; padding: 0 0 18px 22px; margin: 0; }
+.timeline li::before { content: ""; position: absolute; left: -7px; top: 6px; width: 12px; height: 12px; border-radius: 50%; background: var(--bg); border: 2px solid var(--accent); }
+.timeline b { display: block; font-weight: 600; }
+.timeline span { color: var(--ink-2); font-size: 15px; }
+
+.daily { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 20px 0; }
+.daily div { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 14px; font-size: 14.5px; }
+.daily time { display: block; font: 600 22px var(--font-display); color: var(--highlight); margin-bottom: 4px; font-variant-numeric: tabular-nums; }
+
+.search { width: 100%; font: 15px var(--font-body); padding: 10px 14px; border: 1px solid var(--line); border-radius: var(--r); background: var(--surface); color: var(--ink); margin: 14px 0 4px; }
+.empty { color: var(--muted); font-size: 14.5px; padding: 10px 14px; }
+
+code { font: 13.5px var(--font-data); background: var(--accent-wash); padding: 1px 6px; border-radius: 4px; overflow-wrap: anywhere; }
+
+.pager { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 56px; padding-top: 22px; border-top: 1px solid var(--line); }
+.pager a { display: block; text-decoration: none; padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--r); background: var(--surface); color: var(--ink); }
+.pager a:hover { border-color: var(--accent); }
+.pager small { display: block; font: 500 11.5px var(--font-data); color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+.pager b { font: 600 17px var(--font-display); }
+.pager .next { text-align: right; grid-column: 2; }
+.keys { text-align: center; font-size: 12.5px; color: var(--muted); margin-top: 14px; }
+kbd { font: 12px var(--font-data); border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4px; padding: 0 5px; background: var(--surface); }
+
+@media (prefers-reduced-motion: no-preference) { .page { animation: in .25s ease-out; } @keyframes in { from { opacity: .4; transform: translateY(6px); } } }
+
+@media (max-width: 960px) {
+  .shell { grid-template-columns: minmax(0, 1fr); }
+  aside { display: none; }
+  .mobilebar { display: flex; gap: 10px; align-items: center; position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--side); border-bottom: 1px solid var(--line); padding-block: 10px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .mobilebar strong { font: 600 16px var(--font-display); white-space: nowrap; }
+  .mobilebar select { flex: 1; min-width: 0; font: 14px var(--font-body); padding: 7px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--ink); }
+  main { padding-block: 28px 48px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .pipe { grid-template-columns: 1fr; }
+  .pipe button, .pipe button:first-child, .pipe button:last-child { border: 1px solid var(--line); border-bottom: 0; border-radius: 0; }
+  .pipe button:first-child { border-radius: var(--r) var(--r) 0 0; }
+  .score, .daily { grid-template-columns: repeat(2, 1fr); }
+  .keys { display: none; }
+}
+@media (max-width: 480px) { .pager { grid-template-columns: 1fr; } .pager .next { grid-column: 1; } }
+</style>
+
+<div class="shell">
+  <aside aria-label="Chapters">
+    <p class="brand">India Banking Monitor</p>
+    <p class="brand-sub">A plain-English guide</p>
+    <div class="progress" aria-hidden="true"><i id="bar"></i></div>
+    <nav><ol id="toc"></ol></nav>
+    <p class="side-foot">Written October 2026. Project folder <code>D:\Projects\Bankanalysis</code>.</p>
+  </aside>
+  <div>
+    <div class="mobilebar">
+      <strong>Guide</strong>
+      <label class="sr" for="chap" hidden>Chapter</label>
+      <select id="chap" aria-label="Chapter"></select>
+    </div>
+    <main id="main" tabindex="-1"><div class="page" id="page"></div></main>
+  </div>
+</div>
+
+<script>
+const tbl = (head, rows, cls = []) =>
+  `<div class="tablewrap"><table><thead><tr>${head.map(h => `<th>${h}</th>`).join("")}</tr></thead><tbody>${
+    rows.map(r => `<tr>${r.map((c, i) => `<td class="${cls[i] || ""}">${c}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+
+/* ---------- comparison data (chapter 5) ---------- */
+const CMP = [
+  ["Bank quarterly results (40 banks)", "yes", "All 40 banks, June 2020 to Sept 2026. HDFC Bank's Q4 FY26 matches Indus to the rupee."],
+  ["NBFC / HFC results (36 companies)", "yes", "All 36. Bajaj Finance and Shriram Finance match Indus exactly for Q4 FY26 and FY26."],
+  ["Ratios: margins, cost-to-income, RoA, bad loans, capital", "yes", "Worked out from the filings. Mistakes in some banks' own filings are corrected."],
+  ["Peer comparisons", "yes", "Sortable tables for banks and NBFCs, filter by private, PSU or small finance."],
+  ["Market value and price-to-book", "yes", "Every day from NSE prices, plus history since March 2024 and price-to-earnings."],
+  ["Credit by sector", "yes", "Our monthly history starts Feb 2024; theirs goes further back."],
+  ["Lending and deposit rates, MCLR", "yes", "Averages back to 2012, each bank's MCLR back to 2016."],
+  ["Credit and debit cards, ATMs, QR codes", "yes", "Our history starts Nov 2025; theirs from Mar 2024."],
+  ["Rural / semi-urban / urban / metro split", "yes", "Every quarter from Mar 2023, every year back to 2015. Within 0.1 point of Indus."],
+  ["Deposits and CASA by area", "yes", "2015 to 2026. March 2026 shares match Indus exactly."],
+  ["CASA, AUM, stage 3 (from slide decks)", "part", "Read from each company's latest investor presentation. Most have been read; the rest fill in on later evenings."],
+  ["Loan mix by product (home, gold, auto…)", "no", "Only inside slide decks, laid out differently by every bank."],
+  ["Branch counts", "no", "Only in slide decks and annual reports."],
+  ["Bad-loan movement (new bad loans, recoveries, write-offs)", "no", "Only in annual reports and year-end decks."],
+  ["Credit growth after inflation", "ours", "Uses MoSPI's consumer price index."],
+  ["Funding pressure", "ours", "Loans vs deposits, new loans vs new deposits, banks' government bond holdings."],
+  ["Did RBI rate cuts reach borrowers?", "ours", "Split by PSU and private banks, explained by which benchmark their loans use."],
+  ["Card market concentration and spend per card", "ours", "Shows whether a few banks dominate and how much each card is used."],
+  ["Loans by interest rate and loan size", "ours", "From RBI's annual BSR-1 survey, ten years of history."],
+  ["One searchable, interactive site", "ours", "Hover any chart for values; every chart has the table behind it."],
+];
+const PILL = { yes: ["yes", "Rebuilt"], part: ["part", "Partly"], no: ["no", "Not yet"], ours: ["ours", "Only ours"] };
+const pill = s => `<span class="pill ${PILL[s][0]}">${PILL[s][1]}</span>`;
+
+/* ---------- glossary (chapter 10) ---------- */
+const GLOSS = [
+  ["RBI", "Reserve Bank of India, the central bank. It publishes most of the industry data."],
+  ["MoSPI", "Ministry of Statistics. Publishes inflation (CPI) every month."],
+  ["NSE", "National Stock Exchange. Listed companies file their results here."],
+  ["NBFC", "Non-bank finance company: lends money but isn't a bank (e.g. Bajaj Finance)."],
+  ["HFC", "Housing finance company: an NBFC that mainly gives home loans (e.g. LIC Housing)."],
+  ["PSU bank", "A government-owned bank, such as SBI or Bank of Baroda."],
+  ["SFB", "Small finance bank: a smaller bank focused on small borrowers."],
+  ["Repo rate", "The RBI's main interest rate. When it moves, loan and deposit rates should follow."],
+  ["MCLR", "A bank's own benchmark lending rate. Many older floating-rate loans are linked to it."],
+  ["CASA", "Current and savings account deposits. Cheap money for a bank, so a higher share is better."],
+  ["NII", "Net interest income: interest earned minus interest paid."],
+  ["NPA", "Non-performing asset: a loan that has stopped being repaid. A bad loan."],
+  ["Stage 3", "The NBFC word for bad loans."],
+  ["PCR", "Provision coverage ratio: how much of the bad loans the lender has already set money aside for."],
+  ["CET1", "The strongest form of bank capital, as a share of risky assets."],
+  ["RoA", "Return on assets: profit as a share of everything the lender owns."],
+  ["AUM", "Assets under management: the loans an NBFC manages."],
+  ["P/B", "Price-to-book: market value divided by the company's own capital."],
+  ["P/E", "Price-to-earnings: market value divided by a year's profit."],
+  ["BSR-1 / BSR-2", "RBI's Basic Statistical Returns: big yearly surveys of bank loans (1) and deposits (2)."],
+  ["DBIE", "RBI's database website, data.rbi.org.in, where the detailed tables live."],
+  ["XBRL", "A machine-readable version of a company's results, filed with the exchange."],
+  ["Bhavcopy", "NSE's daily file of closing share prices."],
+  ["Crore / lakh crore", "1 crore = 10 million. ₹1 lakh crore = ₹1 trillion."],
+  ["FY26, Q4", "India's financial year runs April to March. FY26 ended March 2026; Q4 is January to March."],
+];
+
+/* ---------- pipeline stages (chapter 6) ---------- */
+const STAGES = [
+  { n: "Fetch", s: "Download new files", body: `
+    <p>Each evening the program visits every source and downloads only what's new.</p>
+    ${tbl(["Source", "What it downloads", "How often"], [
+      ["RBI website", "Credit by sector, lending and deposit rates, card statistics, banks' fortnightly statement", "Monthly"],
+      ["RBI database (DBIE)", "Rural/urban/metro tables, BSR-1 loan and BSR-2 deposit tables, yearly BSR volumes", "Quarterly / yearly"],
+      ["MoSPI", "Consumer price inflation", "Monthly"],
+      ["RBI announcements", "Repo rate decisions", "After each policy meeting"],
+      ["NSE filings", "Each company's quarterly results (XBRL)", "Quarterly"],
+      ["NSE announcements", "Each company's latest investor presentation (PDF)", "Quarterly"],
+      ["NSE bhavcopy", "Closing share prices", "Daily"],
+    ], ["k"])}
+    <div class="note"><b>Why a hidden browser?</b> RBI's file server blocks simple scripts, and its database only hands out tables through an interactive viewer. So the program opens an invisible Chrome window, clicks through like a person would, and saves the Excel export.</div>` },
+  { n: "Clean", s: "Turn files into tidy tables", body: `
+    <p>Every kind of file has its own reader, and everything ends up in one database file, <code>data\\bank.db</code>. The readers find rows by their <b>names</b> (like "Housing"), not their position, because RBI moves rows around now and then.</p>
+    <ul>
+      <li><b>Units:</b> older RBI books use ₹ million, newer ones ₹ crore. Everything becomes ₹ crore.</li>
+      <li><b>Missing quarters:</b> if NSE has lost a quarter's file, it is rebuilt from year-to-date totals and marked with *.</li>
+      <li><b>Filing mistakes:</b> some banks report return on assets per quarter and others per year; a few wrote 13% capital as 0.13%. Both are spotted and fixed.</li>
+      <li><b>Two formats:</b> NBFCs file in a different accounting format from banks, so they have their own reader.</li>
+    </ul>` },
+  { n: "Read decks", s: "Claude reads new slide decks", body: `
+    <p>CASA, provision coverage, AUM and stage 3 only appear in each company's investor presentation, and every company lays its slides out differently. So each <b>new</b> deck goes to Claude once.</p>
+    <ol class="steps">
+      <li>Claude reads the deck and returns each figure with the <b>exact words and page number</b> it came from.</li>
+      <li>The program checks those words really are on that page and contain the number.</li>
+      <li>It checks the value is sensible (a CASA ratio of 400% gets thrown out).</li>
+      <li>Anything that fails a check is dropped.</li>
+    </ol>
+    <p>Bank bad-loan ratios read this way matched the official filings exactly. It costs about 76 decks a quarter from your Claude plan; if the daily limit is reached, the rest wait for the next evening.</p>` },
+  { n: "Calculate", s: "Work out the measures", body: `
+    <p>From the tidy tables it works out every ratio, growth rate and ranking. The <a href="#measures">Measures chapter</a> explains each one in a line.</p>
+    <p>Examples: growth compared with a year earlier, credit growth minus inflation, how much of a repo change reached loan rates, market value from share price × shares, and price-to-book from market value ÷ capital.</p>` },
+  { n: "Build", s: "Make the website file", body: `
+    <p>Finally it pours every number into the website file <code>reports\\india_banking_monitor.html</code>. Double-click it to open. It works offline and needs no server.</p>
+    <p>The online copy on claude.ai is a separate copy; it updates when you ask Claude Code to "republish the site".</p>` },
+];
+
+/* ---------- chapters ---------- */
+const CH = [
+  { id: "start", t: "Start here", html: () => `
+    <p class="eyebrow">The short version</p>
+    <h1>We rebuilt a bank research library from free public data, and it now updates itself.</h1>
+    <p class="lede">This guide explains what the Indus Equity site is, what we copied, what we added, where every number comes from, and what happens from here. Each chapter takes a couple of minutes.</p>
+    <div class="cards">
+      <div class="card"><span class="tag">Their site</span><b>About 100 PDF reports</b><p>Slides on Indian banks and non-bank lenders, refreshed monthly and quarterly.</p></div>
+      <div class="card"><span class="tag">Their data</span><b>All free and public</b><p>RBI releases and the companies' own results. They collect nothing themselves.</p></div>
+      <div class="card"><span class="tag">Our site</span><b>One searchable website</b><p>11 pages, 40 banks, 36 NBFCs, 63 charts and tables.</p></div>
+      <div class="card"><span class="tag">Accuracy</span><b>Matches where we can check</b><p>HDFC Bank, Bajaj Finance, Shriram and the regional shares all match Indus.</p></div>
+      <div class="card"><span class="tag">Still missing</span><b>Three things</b><p>Loan mix by product, branch counts and bad-loan movement tables.</p></div>
+      <div class="card"><span class="tag">Updates</span><b>Every evening at 19:30</b><p>Your PC downloads anything new and rebuilds the site. Nothing to do.</p></div>
+    </div>
+    <p>Use the chapter list (or the <kbd>←</kbd> <kbd>→</kbd> keys) to move through the guide.</p>` },
+
+  { id: "indus", t: "The Indus site", html: () => `
+    <p class="eyebrow">What we copied</p>
+    <h1>The Indus Equity reports page is a library of PDF slide decks.</h1>
+    <p class="lede">Indus Equity Advisors is a Mumbai advisory firm. Its reports page (indusequity.com/reports.html) lists about 100–115 PDFs on banks, NBFCs and housing finance companies. They are PowerPoint slides saved as PDF, with Excel-style charts and tables. It is not a live dashboard.</p>
+    <h2>Their eight kinds of report</h2>
+    ${tbl(["Report", "How many", "What it shows"], [
+      ["Bank results & snapshots", "40 banks", "Each bank's income, costs, profit, bad loans, capital, deposits, loans, CASA, loan mix, branches and price-to-book, FY21 to now"],
+      ["NBFC & HFC snapshots", "33–36", "The same for non-bank and housing lenders, plus AUM, stage 3 and borrowing cost"],
+      ["Peer comparisons", "5", "Private banks, PSU banks, small finance banks, NBFCs and HFCs side by side"],
+      ["Quarterly compendium", "2", "Everything in one 565-page PDF, plus market value, PSU bank yields and bad-loan movement"],
+      ["Credit by sector", "Monthly", "Which sectors banks lend to and how fast each is growing"],
+      ["Lending & deposit rates", "Monthly", "Average loan and deposit rates by bank type, and each bank's MCLR"],
+      ["Cards, ATMs, QR codes", "Monthly", "Number of cards, spending and market share by bank"],
+      ["Distribution of credit & deposits", "Yearly", "Rural, semi-urban, urban and metro split by state and bank type, since 2015"],
+    ], ["k", "num"])}` },
+
+  { id: "sources", t: "Where Indus gets its data", html: () => `
+    <p class="eyebrow">Their sources</p>
+    <h1>Every Indus chart comes from one of two free places.</h1>
+    <p class="lede">Their charts say either "Source: RBI, Indus Equity" or "Source: Company, Indus Equity". Both are public and free to download.</p>
+    <div class="cards">
+      <div class="card"><span class="tag">Source: RBI</span><b>The Reserve Bank of India</b><p>Monthly Excel files on rbi.org.in (credit by sector, interest rates, card statistics) and detailed tables on its database site, data.rbi.org.in. Powers the four industry reports.</p></div>
+      <div class="card"><span class="tag">Source: Company</span><b>The lenders themselves</b><p>Every listed bank and NBFC must file quarterly results with the stock exchange, and most publish an investor presentation with extra detail. Share prices come from the exchange too. Powers the company reports.</p></div>
+    </div>
+    <h2>So how do you replicate it?</h2>
+    <ol class="steps">
+      <li><b>RBI reports:</b> download the RBI Excel files each month and read them into tables. The easy part.</li>
+      <li><b>Company numbers:</b> download each company's results file from NSE every quarter. Harder, because banks and NBFCs use different formats and some filings have mistakes.</li>
+      <li><b>Extra company detail</b> (CASA, loan mix, branches): only in slide decks, laid out differently by every company. The hardest part.</li>
+      <li><b>Valuations:</b> combine NSE's daily share prices with the number of shares from the filings.</li>
+    </ol>
+    <p>That is exactly what our program does. The <a href="#flow">How the data flows</a> chapter shows how.</p>` },
+
+  { id: "built", t: "What we built", html: () => `
+    <p class="eyebrow">Our site</p>
+    <h1>The India Banking Monitor: one website instead of 100 PDFs.</h1>
+    <p class="lede">A single file that opens in any browser, with an overview and 11 pages.</p>
+    ${tbl(["Page", "What you'll find"], [
+      ["Overview", "Headline numbers and a contents list with each page's latest figure and trend"],
+      ["Credit", "Bank credit growth by sector and industry, and growth after inflation"],
+      ["Deposits", "Deposit growth vs loan growth, loans-to-deposits, banks' government bond holdings"],
+      ["Rates", "Loan and deposit rates, every bank's MCLR, how much of each repo change reached customers"],
+      ["Payments", "Credit and debit cards, spending, ATMs, QR codes, market share and concentration"],
+      ["Regions", "Rural / semi-urban / urban / metro split of loans and deposits, by state"],
+      ["Structure", "RBI's yearly survey: loans by interest rate, loan size and borrower, ten years back"],
+      ["Banks", "Pick any of 40 banks: summary, charts, a results table in Indus's layout, peer table"],
+      ["NBFCs & HFCs", "The same for 36 non-bank and housing lenders"],
+      ["Valuations", "Market value, price-to-book and price-to-earnings for all 76 companies"],
+      ["Sources", "Where every dataset comes from, and known caveats"],
+    ], ["k"])}
+    <h2>Getting around it</h2>
+    <ul>
+      <li><b>Top menu</b> grouped into Economy and Lenders; on a phone it folds into a "Pages" menu.</li>
+      <li><b>Search:</b> press <kbd>/</kbd> and type a bank name, ticker or chart name.</li>
+      <li><b>"On this page" strip</b> lists every chart on the page and jumps to it.</li>
+      <li><b>Links per page and per company</b>, e.g. <code>#rates</code> or <code>#bank-SBIN</code>, so you can share exactly what you're looking at.</li>
+    </ul>` },
+
+  { id: "compare", t: "Indus vs ours", html: () => {
+      const c = s => CMP.filter(r => r[1] === s).length;
+      return `
+    <p class="eyebrow">Side by side</p>
+    <h1>We rebuilt nearly everything, and added six things they don't have.</h1>
+    <div class="score">
+      <div class="yes"><b>${c("yes")}</b><span>Rebuilt</span></div>
+      <div class="part"><b>${c("part")}</b><span>Partly</span></div>
+      <div class="no"><b>${c("no")}</b><span>Not yet</span></div>
+      <div class="ours"><b>${c("ours")}</b><span>Only ours</span></div>
+    </div>
+    <div class="filters" role="group" aria-label="Filter">
+      ${[["all", "All", CMP.length], ["yes", "Rebuilt", c("yes")], ["part", "Partly", c("part")], ["no", "Not yet", c("no")], ["ours", "Only ours", c("ours")]]
+        .map(([k, l, n]) => `<button type="button" data-f="${k}" aria-pressed="${k === "all"}">${l}<span class="c">${n}</span></button>`).join("")}
+    </div>
+    <div class="tablewrap"><table><thead><tr><th>Item</th><th>Status</th><th>Notes</th></tr></thead><tbody id="cmp"></tbody></table></div>
+    <div class="note"><b>Why are three things missing?</b> Loan mix, branch counts and bad-loan movement are never in the exchange filings. They sit only in slide decks and annual reports, in a different layout for every company. They can be added the same way CASA was: by having Claude read the decks.</div>`; },
+    after: () => {
+      const body = document.getElementById("cmp");
+      const draw = f => { body.innerHTML = CMP.filter(r => f === "all" || r[1] === f)
+        .map(r => `<tr><td class="k">${r[0]}</td><td>${pill(r[1])}</td><td>${r[2]}</td></tr>`).join(""); };
+      document.querySelectorAll(".filters button").forEach(b => b.onclick = () => {
+        document.querySelectorAll(".filters button").forEach(x => x.setAttribute("aria-pressed", x === b));
+        draw(b.dataset.f);
+      });
+      draw("all");
+    } },
+
+  { id: "flow", t: "How the data flows", html: () => `
+    <p class="eyebrow">From download to website</p>
+    <h1>Five steps turn raw downloads into the website.</h1>
+    <p class="lede">The same five steps run every evening. Click a step to see what happens in it.</p>
+    <div class="pipe" role="tablist" aria-label="Pipeline steps">
+      ${STAGES.map((s, i) => `<button type="button" role="tab" id="tab${i}" aria-controls="stage" aria-selected="${i === 0}"><span>Step ${i + 1}</span><b>${s.n}</b><small>${s.s}</small></button>`).join("")}
+    </div>
+    <div class="stage" id="stage" role="tabpanel"></div>`,
+    after: () => {
+      const tabs = [...document.querySelectorAll(".pipe button")], panel = document.getElementById("stage");
+      const show = i => { tabs.forEach((t, j) => t.setAttribute("aria-selected", i === j)); panel.innerHTML = `<h2>Step ${i + 1}: ${STAGES[i].n}</h2>` + STAGES[i].body; panel.setAttribute("aria-labelledby", "tab" + i); };
+      tabs.forEach((t, i) => { t.onclick = () => show(i); t.onkeydown = e => {
+        if (e.key === "ArrowRight" || e.key === "ArrowDown") { e.preventDefault(); e.stopPropagation(); const n = (i + 1) % tabs.length; tabs[n].focus(); show(n); }
+        if (e.key === "ArrowLeft" || e.key === "ArrowUp") { e.preventDefault(); e.stopPropagation(); const n = (i + tabs.length - 1) % tabs.length; tabs[n].focus(); show(n); }
+      }; });
+      show(0);
+    } },
+
+  { id: "measures", t: "The measures", html: () => `
+    <p class="eyebrow">How each number is worked out</p>
+    <h1>Every figure on the site comes from a simple sum.</h1>
+    <p class="lede">The raw numbers come straight from RBI and company filings. These are the calculations done on top.</p>
+    <h2>For banks and NBFCs</h2>
+    ${tbl(["Measure", "How it's worked out", "What it tells you"], [
+      ["Net interest income", "Interest earned − interest paid", "Core earnings from lending"],
+      ["Cost-to-income", "Running costs ÷ (net interest income + other income)", "How efficiently it runs. Lower is better"],
+      ["Gross NPA %", "Bad loans ÷ all loans", "How many loans have gone bad"],
+      ["Provision coverage", "Money set aside ÷ bad loans", "How well bad loans are already covered"],
+      ["Credit cost", "Provisions ÷ loans", "Used for NBFCs, whose filings have no bad-loan ratio"],
+      ["CASA ratio", "(Current + savings deposits) ÷ all deposits", "Share of cheap money. Higher is better"],
+      ["Return on assets", "Profit ÷ everything it owns", "How profitable it is for its size"],
+    ], ["k", "f"])}
+    <h2>For the economy</h2>
+    ${tbl(["Measure", "How it's worked out", "What it tells you"], [
+      ["Credit growth", "This month's loans ÷ same month last year − 1", "How fast lending is growing"],
+      ["Real credit growth", "Credit growth − inflation", "Growth after rising prices are taken out"],
+      ["Loans-to-deposits", "Loans ÷ deposits", "How stretched banks' funding is"],
+      ["Rate pass-through", "Change in loan or deposit rate ÷ change in repo rate", "How much of an RBI move reached customers"],
+      ["Card concentration", "Sum of each bank's market share squared", "Whether a few banks dominate cards"],
+    ], ["k", "f"])}
+    <h2>For valuations</h2>
+    ${tbl(["Measure", "How it's worked out", "What it tells you"], [
+      ["Market value", "Share price × number of shares", "What the market says the company is worth"],
+      ["Price-to-book", "Market value ÷ the company's own capital", "Price compared with what it owns"],
+      ["Price-to-earnings", "Market value ÷ last four quarters' profit", "Price compared with what it earns"],
+    ], ["k", "f"])}` },
+
+  { id: "checks", t: "How we checked it", html: () => `
+    <p class="eyebrow">Accuracy</p>
+    <h1>Where we can compare, our numbers match Indus and RBI exactly.</h1>
+    <p class="lede">Before trusting any page, we checked its numbers against figures Indus or RBI had already published.</p>
+    ${tbl(["What we checked", "Our figure", "Matches"], [
+      ["HDFC Bank Q4 FY26 profit", "₹19,221 cr", "Indus, exactly"],
+      ["HDFC Bank Q4 FY26 net interest income", "₹33,082 cr", "Indus, exactly"],
+      ["HDFC Bank gross bad loans", "₹34,061 cr", "Indus, exactly"],
+      ["HDFC Bank deposits", "₹31,05,250 cr", "Indus, exactly"],
+      ["Bajaj Finance and Shriram Finance, every line", "Q4 FY26 and FY26", "Indus, exactly"],
+      ["Bank credit growth, Aug 2026", "19.08%", "RBI's own figure"],
+      ["Card statistics", "All banks added up", "RBI's totals, exactly"],
+      ["Metro share of credit", "65.9% (2015), 60.3% (2025)", "Indus, exactly"],
+      ["Metro / rural share of deposits, Mar 2026", "54.65% / 9.08%", "Indus, exactly"],
+      ["Rural/urban split, Mar 2026", "Each share", "Indus, within 0.1 point"],
+      ["Bank bad-loan ratios read from slide decks", "Each bank", "Official filings, exactly"],
+    ], ["k", "num", ""])}
+    <h2>Known differences</h2>
+    <ul>
+      <li><b>Restated quarters:</b> when a company later revises an old quarter, Indus shows the revised figure while the filing we read shows the original. Older quarters can differ slightly.</li>
+      <li><b>Inflation base change:</b> CPI moved to a new 2024 base in January 2026, so inflation-adjusted series mix two baskets. The site says so.</li>
+      <li><b>Shorter history in places:</b> our sector credit starts Feb 2024 and cards Nov 2025.</li>
+    </ul>` },
+
+  { id: "future", t: "From now on", html: () => `
+    <p class="eyebrow">Day to day and the future</p>
+    <h1>The site keeps itself up to date. You only step in when something changes.</h1>
+    <h2>Every evening</h2>
+    <div class="daily">
+      <div><time>19:30</time>Windows starts the task "BankAnalysis daily" (or when the PC is next switched on).</div>
+      <div><time>+1 min</time>It checks every source and downloads only what's new.</div>
+      <div><time>~45 min</time>It recalculates everything and rebuilds the website file.</div>
+      <div><time>Done</time>It writes a log; <code>logs\\last_run.json</code> shows whether each step worked.</div>
+    </div>
+    <p>Most evenings nothing new has come out and the site simply stays the same.</p>
+    <h2>What arrives through the year</h2>
+    <ul class="timeline">
+      <li><b>End of every month</b><span>New credit-by-sector and lending/deposit rate data from RBI.</span></li>
+      <li><b>Every month, 1–2 months behind</b><span>New card, ATM and QR code statistics.</span></li>
+      <li><b>Mid-month</b><span>New inflation figure from MoSPI.</span></li>
+      <li><b>After each RBI policy meeting</b><span>The repo rate decision.</span></li>
+      <li><b>Results season: mid-Jan, Apr, Jul, Oct</b><span>New results for all 76 companies, new slide decks read by Claude, new valuations.</span></li>
+      <li><b>Every quarter</b><span>Updated rural / urban / metro split.</span></li>
+      <li><b>Once a year</b><span>New BSR-1 and BSR-2 survey tables.</span></li>
+    </ul>
+    <h2>When you need to step in</h2>
+    <div class="cards">
+      <div class="card"><span class="tag">Sharing</span><b>Update the online link</b><p>Ask Claude Code to "republish the site". The file on your PC is always current.</p></div>
+      <div class="card"><span class="tag">Companies</span><b>Add or remove one</b><p>Edit <code>raw\\manual\\banks.csv</code> or <code>nbfcs.csv</code>, e.g. after a merger or new listing.</p></div>
+      <div class="card"><span class="tag">Breakage</span><b>A step fails</b><p>If RBI or NSE redesign a page, <code>last_run.json</code> shows "failed". Ask Claude Code to fix that step.</p></div>
+      <div class="card"><span class="tag">Design</span><b>Change the look</b><p>In the <code>web</code> folder run <code>npm run release</code>.</p></div>
+    </div>
+    <h2>Possible next improvements</h2>
+    <ul>
+      <li>Loan mix and branch counts from slide decks, the main gap left versus Indus.</li>
+      <li>Bad-loan movement tables (new bad loans, recoveries, write-offs) for PSU banks.</li>
+      <li>Longer history for credit by sector (before 2024) and cards (before Nov 2025).</li>
+    </ul>` },
+
+  { id: "glossary", t: "Glossary", html: () => `
+    <p class="eyebrow">Words used in this guide</p>
+    <h1>Glossary</h1>
+    <label for="gq" class="eyebrow" style="display:block;margin-top:10px">Search terms</label>
+    <input id="gq" class="search" type="search" placeholder="Type a term, e.g. CASA" autocomplete="off">
+    <div class="tablewrap"><table><thead><tr><th>Term</th><th>Meaning</th></tr></thead><tbody id="gl"></tbody></table></div>
+    <p style="margin-top:28px;font-size:13.5px;color:var(--muted)">This is an analysis of public data, not investment advice.</p>`,
+    after: () => {
+      const body = document.getElementById("gl"), q = document.getElementById("gq");
+      const draw = () => { const s = q.value.trim().toLowerCase();
+        const rows = GLOSS.filter(g => !s || (g[0] + " " + g[1]).toLowerCase().includes(s));
+        body.innerHTML = rows.length ? rows.map(g => `<tr><td class="k">${g[0]}</td><td>${g[1]}</td></tr>`).join("") : `<tr><td colspan="2" class="empty">No term matches "${s.replace(/</g, "&lt;")}". Try a shorter word.</td></tr>`; };
+      q.oninput = draw; draw();
+    } },
+];
+
+/* ---------- router ---------- */
+const toc = document.getElementById("toc"), sel = document.getElementById("chap"), page = document.getElementById("page");
+let seen = new Set();
+try { seen = new Set(JSON.parse(localStorage.getItem("guide-seen") || "[]")); } catch (e) {}
+toc.innerHTML = CH.map((c, i) => `<li><a href="#${c.id}" data-id="${c.id}"><span>${String(i + 1).padStart(2, "0")}</span>${c.t}</a></li>`).join("");
+sel.innerHTML = CH.map((c, i) => `<option value="${c.id}">${i + 1}. ${c.t}</option>`).join("");
+sel.onchange = () => { location.hash = sel.value; };
+
+function render() {
+  const id = location.hash.slice(1);
+  let i = CH.findIndex(c => c.id === id); if (i < 0) i = 0;
+  const c = CH[i], prev = CH[i - 1], next = CH[i + 1];
+  page.innerHTML = c.html() + `<div class="pager">
+    ${prev ? `<a class="prev" href="#${prev.id}"><small>← Previous</small><b>${prev.t}</b></a>` : ""}
+    ${next ? `<a class="next" href="#${next.id}"><small>Next →</small><b>${next.t}</b></a>` : ""}
+  </div><p class="keys">Use <kbd>←</kbd> <kbd>→</kbd> to move between chapters</p>`;
+  c.after && c.after();
+  seen.add(c.id); try { localStorage.setItem("guide-seen", JSON.stringify([...seen])); } catch (e) {}
+  toc.querySelectorAll("a").forEach(a => { a.toggleAttribute("aria-current", a.dataset.id === c.id); if (a.dataset.id === c.id) a.setAttribute("aria-current", "page"); a.classList.toggle("read", seen.has(a.dataset.id) && a.dataset.id !== c.id); });
+  sel.value = c.id;
+  document.getElementById("bar").style.width = ((i + 1) / CH.length * 100) + "%";
+  document.title = (i ? c.t + " · " : "") + "India Banking Monitor Guide";
+  window.scrollTo(0, 0);
+}
+addEventListener("hashchange", () => { render(); document.getElementById("main").focus({ preventScroll: true }); });
+addEventListener("keydown", e => {
+  if (e.target.closest && e.target.closest("input, select, textarea, [role=tab]")) return;
+  if (e.altKey || e.ctrlKey || e.metaKey) return;
+  const i = Math.max(0, CH.findIndex(c => c.id === location.hash.slice(1)));
+  if (e.key === "ArrowRight" && CH[i + 1]) location.hash = CH[i + 1].id;
+  if (e.key === "ArrowLeft" && i > 0) location.hash = CH[i - 1].id;
+});
+render();
+</script>

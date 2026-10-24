@@ -25,6 +25,7 @@ playwright + `python -m playwright install chromium`).
 | 5g. BSR-2 deposits (2015 on) | `fetch_dbie.py` (tables 2.1, 2.2, 2.10 with every year selected), then `parse_bsr2.py` | `bsr2_deposits`: deposits by population group x bank group x current / saving / term, CASA share |
 | 5h. Investor presentations | `fetch_presentations.py --keep 1`, then `extract_presentations.py` | `raw/presentations/<SYM>/<date>.pdf` + `.json` → `presentation_metrics` (CASA, PCR; AUM, stage 3) |
 | 6. Report | `python src/build_report.py` | `reports/india_banking_monitor.html`, `reports/report_data.json` |
+| 7. Website | `python src/publish_site.py` | force-pushes a one-commit `gh-pages` branch, served at https://danishkfd.github.io/Bankanalysis/ (skipped when unchanged) |
 
 Bank results come from NSE's standalone quarterly XBRL filings (old results format to Dec 2024,
 SEBI Integrated Filing from Mar 2025). The bank list is `raw/manual/banks.csv`. Quarters NSE's
@@ -79,6 +80,16 @@ volumes. March 2026 deposit shares excluding RRBs match Indus Equity exactly (me
 | `raw/manual` | CPI 2026 headline figures and repo-rate decisions, typed from official releases | as released |
 
 Caveats are stored in the `data_notes` table and shown on the report.
+
+## Website
+
+The UI is a React + TypeScript app in `web/` (Vite, single-file build). Every statistic, lender and lender ranking has its own page,
+addressed by a bare hash token: `#credit.real-growth`, `#bank.HDFCBANK`, `#banks.gnpa` (tickers with `&` use `_`, e.g. `#bank.J_KBANK`).
+Statistics are defined in `web/src/catalog/` (one entry = one page: headline value, sentence, charts, meaning, formula, source);
+lender metrics in `web/src/catalog/lenders.ts`. After changing the UI run `npm run release` in `web/`, which rebuilds
+`src/report_app.html` (the template the nightly run fills with data, so the nightly run needs no Node).
+
+GitHub Pages must serve the `gh-pages` branch (Settings → Pages → Branch: gh-pages, / (root)).
 
 ## Automation
 

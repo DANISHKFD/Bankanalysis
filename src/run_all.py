@@ -50,6 +50,7 @@ BUILD = [
     ("NBFC metrics", ["nbfc_metrics.py"]),
     ("Valuations", ["valuation.py"]),
     ("Build report", ["build_report.py"]),
+    ("Publish website (GitHub Pages)", ["publish_site.py"]),
 ]
 
 
